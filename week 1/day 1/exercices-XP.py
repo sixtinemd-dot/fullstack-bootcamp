@@ -108,3 +108,38 @@ if user_height_int > 145:
 else:
     print("Sorry, You'll have to grow some more before going on this ride...")
 
+#Exercice XP gold:
+""" Exercise 1 : Hello World-I love Python
+Instructions
+Print the following output in one line of code:
+Hello world
+Hello world
+Hello world
+Hello world
+I love python
+I love python
+I love python
+I love python """
+
+print("Hello world\n"*4+"I love python\n"*4)
+
+""" Exercise 2 : What is the Season ?
+Instructions
+Ask the user to input a month (1 to 12).
+Display the season of the month received :
+Spring runs from March (3) to May (5)
+Summer runs from June (6) to August (8)
+Autumn runs from September (9) to November (11)
+Winter runs from December (12) to February (2) """
+
+month = input("Enter a month in number (1-12): ")
+month_ = int(month)
+if 5 >= month_ >= 3 :
+    print("this month is in spring")
+elif 8 >= month_ >= 6 :
+    print("this month is in summer")
+elif 11 >= month_ >= 9 :
+    print("this month is in autumn")
+else : 
+    print("this month is in winter")
+
