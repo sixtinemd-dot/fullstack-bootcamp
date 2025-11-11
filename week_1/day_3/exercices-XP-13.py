@@ -45,14 +45,15 @@ for name, age in family.items():
     if age < 3:
         cost = 0
         print(f"{name.title()} = {cost}$")
+        total_cost += cost 
     elif 3 <= age <= 12:
         cost = 10
         print(f"{name.title()} = {cost}$")
+        total_cost += cost 
     else:
         cost = 15
         print(f"{name.title()} = {cost}$")
-
-total_cost += cost 
+        total_cost += cost 
 
 print(f"The total cost is {total_cost}$")
 
@@ -71,22 +72,47 @@ number_stores: 7000
 major_color: 
     France: blue, 
     Spain: red, 
-    US: pink, green
+    US: pink, green """
 
-Create a dictionary called brand with the provided data.
-Modify and access the dictionary as follows:
-Change the value of number_stores to 2.
-Print a sentence describing Zara’s clients using the type_of_clothes key.
-Add a new key country_creation with the value Spain.
-Check if international_competitors exists and, if so, add “Desigual” to the list.
-Delete the creation_date key.
-Print the last item in international_competitors.
-Print the major colors in the US.
-Print the number of keys in the dictionary.
-Print all keys of the dictionary.
+# Create a dictionary called brand with the provided data.
+brand = { "name" : "Zara",
+"creation_date" : "1975",
+"creator_name" : "Amancio Ortega Gaona",
+"type_of_clothes" : ["men", "women", "children", "home"],
+"international_competitors" : ["Gap", "H&M", "Benetton"],
+"number_stores" : 7000,
+"major_color" : {"France" : "blue", 
+                 "Spain" : "red", 
+                 "US": ["pink", "green"]}}
 
-Bonus:
+print(brand)
+# Modify and access the dictionary as follows:
+# Change the value of number_stores to 2.
+brand["number_stores"] = 2
+# Print a sentence describing Zara’s clients using the type_of_clothes key.
+print(f"Zara sells different things in multiple sectors, such as {brand["type_of_clothes"]}.")
+# Add a new key country_creation with the value Spain.
+brand["country_creation"] = "Spain"
+# Check if international_competitors exists and, if so, add “Desigual” to the list.
+if "international_competitors" in brand.keys():
+    brand["international_competitors"].append("Desigual")
+
+# Delete the creation_date key.
+del brand["creation_date"]
+# Print the last item in international_competitors.
+print(brand["international_competitors"][-1])
+# Print the major colors in the US.
+print(brand["major_color"]["US"])
+# Print the number of keys in the dictionary.
+print(len(brand.keys()))
+# Print all keys of the dictionary.
+# print(brand.keys())
+for key in brand.keys():
+    print(key)
+
+""" Bonus:
 Create another dictionary called more_on_zara with creation_date and number_stores. Merge this dictionary with the original brand dictionary and print the result. """
+
 
 # Exercise 4: Disney Characters
 
@@ -106,7 +132,26 @@ Expected Results:
 3. Create a dictionary where characters are sorted alphabetically and mapped to their indices:
 {"Ariel": 0, "Donald": 1, "Mickey": 2, "Minnie": 3, "Pluto": 4} """
 
+# 1
+users = ["Mickey", "Minnie", "Donald", "Ariel", "Pluto"]
+disney_dict1 = {}
 
+for index, char in enumerate(users):
+    disney_dict1[char] = index
+print(disney_dict1)
+
+#2
+disney_dict2 = {}
+for index, char in enumerate(users):
+    disney_dict2[index] = char
+print(disney_dict2)
+
+#3
+disney_dict3 = {}
+users_sorted = sorted(users)
+for index, char in enumerate(users_sorted):
+    disney_dict3[char] = index
+print(disney_dict3)
 
 
 
