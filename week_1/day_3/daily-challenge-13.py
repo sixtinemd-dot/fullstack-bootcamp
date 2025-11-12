@@ -81,13 +81,13 @@ for key, value in items_purchase1.items():
         basket1.append(key)
         wallet1 -= value
     else:
-        wallet1 += 0
+        pass
     
 if basket1 == []:
         print("Nothing")
 
 else:
-        print(basket1)   
+        print(sorted(basket1))   
 
 
 # B
