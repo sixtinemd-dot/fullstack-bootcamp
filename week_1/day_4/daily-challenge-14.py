@@ -33,7 +33,7 @@ def show_menu(menu_dict):
 def add_item(menu_dict):
     """Add a new drink to the menu."""
     drink_input = input("Enter new drink name: ")
-    price_input = input("Enter price: ")
+    price_input = float(input("Enter price: "))
     if drink_input not in menu:
         menu[drink_input] = price_input
         print(f"{drink_input} added!")
@@ -44,9 +44,9 @@ def add_item(menu_dict):
 
 def update_price(menu_dict):
     """Change the price of an existing drink."""
-    drink_update = input("Which drink do you want to update? ")
+    drink_update = (input("Which drink do you want to update? "))
     if drink_update in menu:
-        price_update = input("Enter new price: ")
+        price_update = float(input("Enter new price: "))
         menu[drink_update] = price_update
         print("Price updated!")
     else:
@@ -75,7 +75,7 @@ def show_options():
     print("5. Exit")
     pass
 
-def run_coffee_shop():
+def run_coffee_shop(menu):
     """Main loop of the program."""
     # TODO
     # while True:
@@ -108,4 +108,4 @@ def run_coffee_shop():
     pass
 
 # Start the program
-run_coffee_shop()
+run_coffee_shop(menu)
