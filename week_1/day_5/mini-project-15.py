@@ -37,21 +37,14 @@ def player_input(player):
         column_player = int(column_player_str) - 1
         if column_player not in range(3):
             print("Please enter a number between 1 and 3.")
-            continue
-        break 
+            continue 
+        break
 
-    while True:
-
-        if grid[row_player][column_player] == ' ':
-            grid[row_player][column_player] = player
-            
-        else:
-            print("This spot is already taken!")
-            continue
+    if grid[row_player][column_player] == ' ':
+            grid[row_player][column_player] = player    
+    else:
+            print("This spot is already taken! You lose your turn.")
         
-        break         
-
-
 pass
 
 def check_win(board, player):
@@ -80,18 +73,16 @@ def check_win(board, player):
     
     else:
         return False
-    pass
+    
+pass
 
 def check_tie(board):
-    if " " not in grid:
-        if not check_win:
-            return "TIE!"
-        else:
-            pass
-    else:
-        pass
-    pass
-
+    for row in grid:
+        for column in row:
+            if column == ' ':
+                return False
+    return True
+pass
 
 def play(grid):
     
