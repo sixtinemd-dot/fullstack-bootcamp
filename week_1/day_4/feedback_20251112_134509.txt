@@ -1,0 +1,10 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_1/day_4/exercices-XP-14.py
+suggestions for improvement:
+- In Exercise 6, the `show_magicians` function prints the whole list instead of each magician individually before the list is modified. You should iterate through it.
+- In Exercise 6, the `make_great` function prints the whole list instead of printing one name at a time in `show_magicians`, but it fulfills the requirements, so it isn't necessarily wrong.
+Brief justification:
+- correctness: The code correctly implements all exercises, addressing the specified goals and steps. The output matches the expected output for all exercises. Except exercise 6 function `show_magicians` print the whole list instead of each magician individually before the list is modified.
+- readability: The code is well-formatted and easy to read. The use of comments to separate exercises and explain each step improves readability significantly.
+- performance: The code has good performance for the given tasks. The functions are simple and efficient.
+- security: The code doesn't involve any user input or external data, so security is not a concern.
+
