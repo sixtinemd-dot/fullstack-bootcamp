@@ -1,4 +1,4 @@
-from exercices_XP import Dog 
+from week_2.day_2.exercices_XP_22.exercices_XP import Dog 
 import random
 
 class PetDog(Dog):
