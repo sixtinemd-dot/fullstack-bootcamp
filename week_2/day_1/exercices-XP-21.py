@@ -94,14 +94,17 @@ class Zoo:
         self.zoo_name = zoo_name
         self.animals = []
 
-    def add_animal(self, new_animal):
-        if new_animal in self.animals:
-            pass
-        else:
-            self.animals.append(new_animal)
+    def add_animal(self, *new_animal):
+        if new_animal:
+            for each_animal in new_animal:
+                if each_animal not in self.animals:
+                    self.animals.append(each_animal)
+                else:
+                    print(f"{each_animal} allready exists in the zoo")
+        print(", ".join(self.animals))
 
     def get_animals(self):
-        print(self.animals)
+        print(", ".join(self.animals))
 
     def sell_animal(self, animal_sold):
         if animal_sold in self.animals:
@@ -129,7 +132,7 @@ class Zoo:
 
 Pairidaiza = Zoo("Pairidaiza")
 
-Pairidaiza.add_animal("Giraffe")
+Pairidaiza.add_animal("Giraffe", "Bear", "Baboon")
 Pairidaiza.add_animal("Bear")
 Pairidaiza.add_animal("Baboon")
 Pairidaiza.add_animal("Cat")
