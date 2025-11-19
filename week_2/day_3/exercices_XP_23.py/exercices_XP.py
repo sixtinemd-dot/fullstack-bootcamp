@@ -9,10 +9,16 @@ class Currency:
     #Your code starts HERE
 
     def __str__(self):
-        return f"{self.amount} {self.currency}"
+        if self.amount == 1:
+            return f"{self.amount} {self.currency}"
+        else:
+            return f"{self.amount} {self.currency}s"
 
     def __repr__(self):
-        return f"{self.amount} {self.currency}"
+        if self.amount == 1:
+            return f"{self.amount} {self.currency}"
+        else:
+            return f"{self.amount} {self.currency}s"
 
     def __int__(self):
         return int(self.amount)
@@ -22,7 +28,7 @@ class Currency:
         if isinstance(other, int):
             return self.amount + other
         
-        if isinstance(other, Currency):
+        if type(other) != int:
             if self.currency == other.currency:
                 return self.amount + other.amount
             else:
@@ -73,7 +79,7 @@ c1 += c2
 print(c1)
 # 20 dollars
 
-# print(c1 + c3)
+print(c1 + c3)
 # TypeError: Cannot add between Currency type <dollar> and <shekel>
 
 """ Exercise 2: Import
