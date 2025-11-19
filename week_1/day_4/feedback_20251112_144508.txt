@@ -1,0 +1,11 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_1/day_4/daily-challenge-14.py
+suggestions for improvement:
+- Add validation for the price input in `add_item` and `update_price` to ensure it's a valid number (float) and non-negative, as suggested in the extra challenges.
+- Consider using a more descriptive variable name than `choose_str` and `choose` for the user's menu choice.
+- The `pass` statements at the end of the functions can be removed as they are not necessary.
+Brief justification:
+- correctness: The code correctly implements all the required functions: `show_menu`, `add_item`, `update_price`, `delete_item`, `show_options`, and `run_coffee_shop`. It fulfills the requirements of storing the menu in a dictionary and allowing the user to perform CRUD operations and exit. The output format is also correct. The only minor issue is the lack of input validation for prices.
+- readability: The code is well-structured and uses descriptive function names. The comments at the beginning are helpful. However, the variable names `choose_str` and `choose` could be more descriptive.
+- performance: The code's performance is good. The functions are simple and efficient. The main loop is also well-structured.
+- security: The code is relatively secure in the context of this exercise. However, there is no input sanitization or validation, which could be a potential security risk in a real-world application (e.g., preventing injection attacks or handling unexpected input types).
+

@@ -1,0 +1,12 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_2/day_2/exercices_XP_22/exercice_3_XP_22.py
+suggestions for improvement:
+- Consider adding a docstring to each method to explain its purpose.
+- The play method could be made more robust by checking if the passed arguments are indeed Dog instances.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_2/day_2/exercices_XP_22/exercices_XP.py
+suggestions for improvement:
+- In Exercise 1, The Siamese class's `__init__` method takes 'eyes' as parameter but it is not specified in the instructions. Consider if this specialization is necessary or if a simple inheritance would suffice as described in the instructions.
+- Exercise 3 is indicated to be in an external file. Please provide the content of `exercice_3_XP_22.py` for a complete review.
+Correctness: 90%
+-----
