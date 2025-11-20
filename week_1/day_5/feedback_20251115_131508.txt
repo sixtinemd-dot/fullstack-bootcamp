@@ -1,0 +1,10 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_1/day_5/daily-challenge-15.py
+suggestions for improvement:
+- Consider adding a docstring to each function to explain its purpose, arguments, and return value.
+- While the code is functional, you could make the `longest_word` function more concise by using `max(sentence.split(), key=len)`.
+Brief justification:
+- correctness: The code accurately addresses both challenges described in the chapter content. Challenge 1 correctly sorts comma-separated words alphabetically. Challenge 2 correctly identifies the longest word in a sentence, handling punctuation as required. The code directly implements the specified functionality.
+- readability: The code is generally easy to read due to the use of descriptive variable names and clear structure. However, the absence of docstrings slightly reduces readability.
+- performance: The performance is acceptable for the given problem size. The sorting algorithm used in Challenge 1 (`word_list.sort()`) has an average time complexity of O(n log n). Challenge 2 iterates through the words once, resulting in O(n) complexity. Both are efficient for typical input sizes.
+- security: The code does not involve any operations that could pose a security risk. It takes string input and processes it without external interactions or potentially unsafe operations.
+
