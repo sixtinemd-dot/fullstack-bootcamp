@@ -63,11 +63,4 @@ class Deck:
         return f"There are {len(self.cards)} cards in the deck."
     
 
-deck = Deck()
-print(deck) 
-deck.build()
-print(deck)        
-deck.shuffle()
-card = deck.deal()
-print("Card dealt:", card)
-print(deck)  
+
