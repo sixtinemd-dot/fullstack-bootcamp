@@ -18,12 +18,12 @@ class Text:
 
     def word_frequecy(self, word):
         text_list = self.text.split()
-        for term in text_list:
-            if word in text_list:
-                return text_list.count(word)
+
+        if word in text_list:
+            return text_list.count(word)
                 
-            else:
-                return "This word is not in the text"
+        else:
+            return "This word is not in the text"
             
     # Step 3: Implement most_common_word Method
 
