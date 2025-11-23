@@ -1,0 +1,18 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_2/day_3/exercices_XP_23.py/exercices_XP.py
+suggestions for improvement:
+- In Exercise 1, the `print(c1 + 5)` and `print(c1 + c3)` lines were commented out.  Uncomment these lines to test the addition of an integer and the `TypeError` exception.
+- Exercise 2 is not implemented. Create the `func.py` file and `exercise_one.py` files as instructed, and demonstrate the import and function call.
+- In Exercise 5, it calculates the time until January 1st of 2026, should calculate until next year (the next January 1st).
+- Consider using more descriptive variable names to improve readability.
+Correctness: 80%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_2/day_3/exercices_XP_23.py/func.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_2/day_3/exercices_XP_23.py/exercice_one.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
