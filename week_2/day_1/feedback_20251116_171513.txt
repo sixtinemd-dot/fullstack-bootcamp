@@ -1,0 +1,11 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_2/day_1/daily-challenge-21.py
+suggestions for improvement:
+- In `get_info`, consider using string formatting to align the animal names and counts into columns for better readability, as suggested in the instructions.
+- In `get_short_info`, you started constructing the logic, but it's incomplete. You need to finish implementing this method to meet the bonus requirements.
+- The bonus part 'upgrade the add_animal Method' using **kwargs was not implemented.
+Brief justification:
+- correctness: The code correctly implements the `Farm` class, the `__init__` method, the `add_animal` method, and the `get_info` method as described in Steps 1-5. The output matches the example provided. The bonus part for `get_animal_types` is not fully implemented, and `get_short_info` is incomplete. `add_animal` was not upgraded as requested.
+- readability: The code is well-structured and easy to read. The use of descriptive variable names and comments enhances readability.
+- performance: The code has good performance characteristics. Dictionary lookups and string concatenation are efficient.
+- security: The code does not have any apparent security vulnerabilities.
+
