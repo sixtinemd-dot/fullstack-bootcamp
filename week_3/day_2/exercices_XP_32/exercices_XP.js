@@ -1,0 +1,262 @@
+// Exercise 1 : Find the numbers divisible by 23
+// Instructions
+// Create a function call displayNumbersDivisible() that takes no parameter.
+
+// In the function, loop through numbers 0 to 500.
+
+// Console.log all the numbers divisible by 23.
+
+// At the end, console.log the sum of all numbers that are divisible by 23.
+
+// Outcome : 0 23 46 69 92 115 138 161 184 207 230 253 276 299 322 345 
+// 368 391 414 437 460 483
+// Sum : 5313
+
+function displayNumbersDivisible() {
+    let numbers = []
+    let sum = 0
+    for (let i = 0; i < 500; i++) {
+        if (i % 23 == 0) {
+            sum += i
+            numbers.push(i)
+        }
+    }
+    console.log(numbers)
+    console.log("sum: " + sum)
+}
+
+displayNumbersDivisible()
+
+// Bonus: Add a parameter divisor to the function.
+
+function displayNumbersDivisible2(divisor) {
+    let numbers = []
+    let sum = 0
+    for (let i = 0; i < 500; i++) {
+        if (i % divisor == 0) {
+            sum += i
+            numbers.push(i)
+        }
+    }
+    console.log(numbers)
+    console.log("sum: " + sum)
+}
+
+displayNumbersDivisible2(40)
+
+// Exercise 2 : Shopping List
+// Instructions
+
+// Add the stock and prices objects to your js file.
+const stock = { 
+    "banana": 6, 
+    "apple": 0,
+    "pear": 12,
+    "orange": 32,
+    "blueberry":1
+}  
+
+const prices = {    
+    "banana": 4, 
+    "apple": 2, 
+    "pear": 1,
+    "orange": 1.5,
+    "blueberry":10
+} 
+
+// Create an array called shoppingList with the following items: “banana”, “orange”, and “apple”. It means that you have 1 banana, 1 orange and 1 apple in your cart.
+let shoppingList = ['banana', 'orange', 'apple']
+
+// Create a function called myBill() that takes no parameters.
+
+// The function should return the total price of your shoppingList. In order to do this you must follow these rules:
+// The item must be in stock. (Hint : check out if .. in)
+// If the item is in stock find out the price in the prices object.
+
+function myBill() {
+    let totalPrice = 0
+    for (let item of shoppingList) {
+        if (stock[item] > 0) {
+            let itemPrice = stock[item] * prices[item]
+            totalPrice += itemPrice
+
+         // Bonus: If the item is in stock, decrease the item’s stock by 1
+            stock[item] -= 1
+        }
+    }
+    console.log(stock)
+    console.log("Total price: " + totalPrice)
+}
+
+// Call the myBill() function.
+myBill()
+
+// Exercise 3 : What’s in my wallet ?
+// Instructions
+
+// Create a function named changeEnough(itemPrice, amountOfChange) that receives two arguments :
+// an item price
+// and an array representing the amount of change in your pocket.
+
+// In the function, determine whether or not you can afford the item.
+// If the sum of the change is bigger or equal than the item’s price (ie. it means that you can afford the item), the function should return true
+// If the sum of the change is smaller than the item’s price (ie. it means that you cannot afford the item) the function should return false
+
+// Change will always be represented in the following order: quarters, dimes, nickels, pennies.
+// A quarters is 0.25
+// A dimes is 0.10
+// A nickel is 0.05
+// A penny is 0.01
+
+function changeEnough(itemPrice, amountOfChange) {
+    let quarters = amountOfChange[0] * 0.25
+    let dimes = amountOfChange[1] * 0.10
+    let nickel = amountOfChange[2] * 0.05
+    let penny = amountOfChange[3] * 0.01
+
+    let changeSum = quarters + dimes + nickel + penny
+
+    if (itemPrice <= changeSum) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+console.log(changeEnough(14.11, [2,100,0,0]))
+
+// Exercise 4 : Vacations Costs
+// Instructions
+// Let’s create functions that calculate your vacation’s costs:
+
+// Define a function called hotelCost().
+// It should ask the user for the number of nights they would like to stay in the hotel.
+// If the user doesn’t answer or if the answer is not a number, ask again.
+// The hotel costs $140 per night. The function should return the total price of the hotel.
+
+function hotelCost() {
+    let nights;
+    let hotelCost = 0
+    do {
+        nights = prompt("How many nights are you staying?")}
+    while (!nights || isNaN(nights))
+    hotelCost += nights * 140
+    return hotelCost
+}
+
+// Define a function called planeRideCost().
+// It should ask the user for their destination.
+// If the user doesn’t answer or if the answer is not a string, ask again.
+// The function should return a different price depending on the location.
+// “London”: 183$
+// “Paris” : 220$
+// All other destination : 300$
+
+function planeRideCost() {
+    let destination;
+    do {
+        destination = prompt("Where are you going?")
+    }
+    while (!destination || ! /^[A-Za-z]+$/.test(destination))
+    
+    let planeCost = 0 
+    if (destination === "London") {
+        planeCost += 183
+    } else if (destination === "Paris") {
+        planeCost += 220
+    } else {
+        planeCost += 300
+    }
+    return planeCost
+
+}
+
+// Define a function called rentalCarCost().
+// It should ask the user for the number of days they would like to rent the car.
+// If the user doesn’t answer or if the answer is not a number, ask again.
+// Calculate the cost to rent the car. The car costs $40 everyday.
+// If the user rents a car for more than 10 days, they get a 5% discount.
+// The function should return the total price of the car rental.
+
+function rentalCarCost() {
+    let carCost = 0
+    let car;
+    do {
+        car = prompt("How many days do you need the car?")}
+    while (!car || isNaN(car))
+    if (car < 10) {
+        let rentalcarCost = car * 40
+        carCost += rentalcarCost
+    } else {
+        let rentalcarCost = car * 40 * 0.05
+        carCost += rentalcarCost
+    }
+    return carCost
+}
+
+// Define a function called totalVacationCost() that returns the total cost of the user’s vacation by calling the 3 functions that you created above.
+
+function totalVacationCost() {
+    const hotel = hotelCost()
+    const plane = planeRideCost()
+    const car = rentalCarCost()
+    let totalCost = hotel + plane + car
+
+    console.log(`Hotel cost: ${hotel}$, plane ride cost: ${plane}$, rental car cost: ${car}$. Total cost: ${totalCost}$.`)
+
+}
+
+// Call the function totalVacationCost()
+
+console.log(totalVacationCost())
+
+// Exercise 7 : My Book List
+// Instructions
+
+// The point of this challenge is to display a list of two books on your browser.
+
+// In the body of the HTML page, create an empty section:
+// <section class="listBooks"></section>
+
+// In the js file, create an array called allBooks. This is an array of objects. Each object is a book that has 4 keys (ie. 4 properties) :
+// title,
+// author,
+// image : a url,
+// alreadyRead : which is a boolean (true or false).
+
+// Initiate the array with 2 books of your choice (ie. Add manually 2 books objects in the array)
+
+let allBooks = [{
+    title: "Harry Potter",
+    author: "J.K Rowling",
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.waterstones.com%2Fbook%2Fharry-potter-and-the-philosophers-stone%2Fj-k-rowling%2F9781408855652&psig=AOvVaw1WsCnNv431bzSr-2MbijJ6&ust=1764079596515000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOi35N_6ipEDFQAAAAAdAAAAABAE",
+    alreadyRead: false
+    },
+    {title: "The Hunger Games" ,
+    author: "Suzanne Collins",
+    image: "https://m.media-amazon.com/images/I/71un2hI4mcL._AC_UF1000,1000_QL80_.jpg",
+    alreadyRead: true
+    }]
+
+// Using the DOM, render each book inside a div (the div must be added to the <section> created in part 1).
+// For each book :
+// You have to display the book’s title and the book’s author.
+// The width of the image has to be set to 100px.
+// If the book is already read. Set the color of the book’s details to red.
+
+let section = document.getElementsByTagName("section")[0]
+
+for(let book of allBooks) {
+    let bookDiv = document.createElement("div")
+    let bookInfo = document.createElement("p")
+    bookInfo.textContent = `book title: ${book["title"]}, book author: ${book["author"]}`
+
+
+    if (book.alreadyRead) {
+        bookInfo.style.color = "red"
+    }
+
+    bookDiv.appendChild(bookInfo)
+    section.appendChild(bookDiv)
+
+}

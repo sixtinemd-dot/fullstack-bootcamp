@@ -1,0 +1,58 @@
+// Exercise 5 : Users
+// Instructions
+// Create a new structured HTML file and a new Javascript file
+
+// <div id="container">Users:</div>
+// <ul class="list">
+//     <li>John</li>
+//     <li>Pete</li>
+// </ul>
+// <ul class="list">
+//     <li>David</li>
+//     <li>Sarah</li>
+//     <li>Dan</li>
+// </ul>
+
+// Add the code above, to your HTML file
+
+// Using Javascript:
+// Retrieve the div and console.log it
+const div = document.getElementById('container')
+console.log(div)
+
+// Change the name “Pete” to “Richard”.
+let ul1 = document.getElementsByTagName('ul')[0]
+let lastLi1 = ul1.lastElementChild
+lastLi1.textContent = "Richard"
+
+// Delete the second <li> of the second <ul>.
+let ul2 = document.getElementsByTagName('ul')[1]
+let secondLi = ul2.getElementsByTagName('li')[1]
+secondLi.remove()
+
+// Change the name of the first <li> of each <ul> to your name. (Hint : use a loop)
+let uls = document.getElementsByTagName('ul')
+for (let ul of uls) {
+    ul.firstElementChild.textContent = "Sixtine"
+}
+
+// Using Javascript:
+// Add a class called student_list to both of the <ul>'s.
+for (let ul of uls) {
+    ul.classList.add('student_list')
+}
+// Add the classes university and attendance to the first <ul>.
+ul1.classList.add('university', 'attedance')
+
+// Using Javascript:
+// Add a “light blue” background color and some padding to the <div>.
+div.style.backgroundColor = "lightblue"
+div.style.padding = "15px"
+// Do not display the <li> that contains the text node “Dan”. (the last <li> of the first <ul>)
+// Add a border to the <li> that contains the text node “Richard”. (the second <li> of the <ul>)
+// Change the font size of the whole body.
+let lastLi2 = ul2.lastElementChild
+lastLi2.style.display = "none"
+lastLi1.style.border = "2px solid black"
+
+document.body.style.fontSize = "18px"
