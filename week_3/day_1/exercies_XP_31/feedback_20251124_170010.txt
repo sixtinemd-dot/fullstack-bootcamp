@@ -1,0 +1,11 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_1/exercies_XP_31/exercices_XP.html
+suggestions for improvement:
+- The provided code is an HTML file that includes an external JavaScript file. The actual JavaScript code that would address the exercises is missing. Therefore, the code does not solve any of the problems described in the Chapter Content/Questions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_1/exercies_XP_31/exercices_XP_31.js
+suggestions for improvement:
+- In Exercise 4, when increasing Dan's rent, you're adding 1200 to the existing rent instead of setting it to 1200. The instruction says 'increase Dan's rent to 1200', which implies setting, not adding.
+- In Exercise 1, 'let last = people.lastIndexOf("Sixtine")' can be improved.  `lastIndexOf` searches for a specific value.  To reliably get the last element, use `people[people.length - 1]`.
+Correctness: 95%
+-----
