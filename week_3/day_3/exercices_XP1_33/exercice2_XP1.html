@@ -15,5 +15,63 @@
 </form> 
 <ul class="usersAnswer"></ul>
 </body>
-<script src="exercice2_XP1.js"></script>
+<script src="exercice2_XP1.js">
+  // Exercise 2 : Work with forms
+// Instructions
+
+// Retrieve the form and console.log it.
+const form = document.getElementsByTagName('form')[0]
+console.log(form)
+
+// Retrieve the inputs by their id and console.log them.
+const input1 = document.getElementById('fname')
+console.log(input1)
+
+const input2 = document.getElementById('lname')
+console.log(input2)
+
+const input3 = document.getElementById('submit')
+console.log(input3)
+
+// Retrieve the inputs by their name attribute and console.log them.
+
+const inputOne = document.getElementsByName('firstname')[0]
+console.log(inputOne)
+
+const inputTwo = document.getElementsByName('lastname')[0]
+console.log(inputTwo)
+
+// When the user submits the form (ie. submit event listener)
+// use event.preventDefault(), why ?
+// get the values of the input tags,
+// make sure that they are not empty,
+// create an li per input value,
+// then append them to a the <ul class="usersAnswer"></ul>, below the form.
+
+let ul = document.getElementsByTagName('ul')[0]
+
+form.addEventListener("submit", function(e) {
+
+    e.preventDefault()
+
+    let firstName = input1.value
+    let lastName  = input2.value
+
+    if (firstName === "" || lastName === "") {
+        alert("Please fill in both fields")
+        return
+    }
+
+   
+    let li1 = document.createElement("li")
+    li1.textContent = firstName
+
+    let li2 = document.createElement("li")
+    li2.textContent = lastName
+
+
+    ul.appendChild(li1)
+    ul.appendChild(li2)
+});
+</script>
 </html>
