@@ -1,0 +1,19 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_2/day_5/anagram_checker.py
+suggestions for improvement:
+- Consider handling file not found exceptions for robustness.
+- The `is_valid_word` and `is_anagram` methods can be made more concise by directly returning the boolean expression.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_2/day_5/anagrams.py
+suggestions for improvement:
+- Consider adding error handling for file operations in `AnagramChecker` class.
+- Add docstrings to functions and classes for better documentation.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_2/day_5/sowpods.txt
+suggestions for improvement:
+- This code is a text file containing a list of words. It needs to be packaged into a `.txt` or `.zip` file before being used in the program.
+- This is not code. This is just a word list. There's no implementation of anything.
+- This code is a large word list and not a Python program to solve the problem.
+Correctness: 0.0%
+-----
