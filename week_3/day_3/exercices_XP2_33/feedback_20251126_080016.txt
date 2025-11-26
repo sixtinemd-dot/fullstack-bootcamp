@@ -1,0 +1,25 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_3/exercices_XP2_33/exercice1_XP2.html
+suggestions for improvement:
+- Consider separating the JavaScript code into an external file for better organization, especially as the code grows.
+- The variable `divLength` could be declared using `const` since its value doesn't change after the initial assignment within the `newPar` function.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_3/exercices_XP2_33/exercice1_XP2.js
+suggestions for improvement:
+- Consider using more descriptive variable names for better readability. For example, 'divLength' could be named 'paragraphCount'.
+- The code could be structured slightly better to avoid defining functions and variables in the global scope. Encapsulating the code within an immediately invoked function expression (IIFE) can help with this.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_3/exercices_XP2_33/exercice2_XP2.html
+suggestions for improvement:
+- Consider moving the script tag to before the closing body tag for better performance.
+- While the code works, adding comments to explain sections like parseInt(box.style.left) || 0 could improve readability for others.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_3/exercices_XP2_33/exercice2_XP2.js
+suggestions for improvement:
+- Consider adding more comments to explain the purpose of each section of the code.
+- Using more descriptive variable names could improve readability (e.g., `animationBox` instead of `box`).
+- The value '350' is hardcoded. Calculate the actual limit by subtracting the width of the animate box from the container width.
+Correctness: 100%
+-----
