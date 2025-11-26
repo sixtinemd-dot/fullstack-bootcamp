@@ -30,7 +30,7 @@ function newPar() {
     par.textContent = "Hello World"
     div.appendChild(par)
 
-    divLength = par.length
+    divLength = div.children.length
 
     if (divLength >= 5) {
         clearInterval(interval)
