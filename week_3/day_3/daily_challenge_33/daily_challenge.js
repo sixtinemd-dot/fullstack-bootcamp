@@ -11,4 +11,21 @@
 // Write a story that uses each of the values.
 // Make sure you check the console for errors when playing the game.
 
-const 
+let form = document.getElementById('libform')
+
+form.addEventListener('submit', function (e) {
+
+  e.preventDefault()
+
+  let noun = document.getElementById('noun').value
+  let adj = document.getElementById('adjective').value
+  let person = document.getElementById('person').value
+  let verb = document.getElementById('verb').value
+  let place = document.getElementById('place').value
+
+  // make a story
+  let story = `The other day, I saw ${person} playing with a very ${adj} ${noun}. I found this weird and so I started ${verb} and went far far away to ${place}.`
+
+  let span = document.getElementById('story')
+  span.textContent = story
+})
