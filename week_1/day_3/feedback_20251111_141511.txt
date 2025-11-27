@@ -1,0 +1,12 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_1/day_3/daily-challenge-13.py
+suggestions for improvement:
+- Challenge 2 should be implemented as a function to improve reusability and readability. The provided code repeats the same logic three times for different inputs, which can be avoided.
+- In Challenge 2, ensure the program prioritizes items based on their order in the dictionary. The current solution simply adds affordable items to the basket without considering the specified priority. The prompt says 'The priority is defined by the position of the item on the dictionary: from the most important to the less important.'
+- In Challenge 2, the code incorrectly updates the wallet in the else statement. Instead of 'wallet += 0', it can simply pass or do nothing. This part does not influence the result but can be considered an unnecessary operation.
+- In Challenge 2, only sorted() is needed to meet all of the requirments from the challenge. The basket list does not need to be printed, instead it must be passed to sorted() and then printed. 
+Brief justification:
+- correctness: Challenge 1 is fully correct and produces the expected outputs. Challenge 2 is partially correct because it identifies affordable items, cleans the data, and returns 'Nothing' when appropriate, but it does not prioritize items based on their original order in the dictionary as specified in the prompt. It produces the correct output for cases B and C, but incorrect for A. Because challenge 2 is partially implemented, this makes the total score 60%.
+- readability: The code is generally readable but Challenge 2 could be improved by using functions to avoid repetition.
+- performance: The code's performance is adequate for the given problem sizes. There are no significant performance bottlenecks, but using a function in challenge 2 could lead to better structuring and potentially easier optimization if the item list were much larger.
+- security: The code is reasonably secure for this use case. User input is taken only in Challenge 1 and is not used in a way that could cause security vulnerabilities. Challenge 2 uses hardcoded dictionaries, so there are no injection concerns.
+

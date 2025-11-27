@@ -1,0 +1,11 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_1/daily_challenge2_31.js
+suggestions for improvement:
+- Variable names could be slightly more descriptive (e.g., `starString` instead of `string`).
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_1/daily_challenge2.html
+suggestions for improvement:
+- The HTML file only sets up a basic structure and links to a JavaScript file. It does not contain any JavaScript code to solve the problem of creating the specified pattern using loops as requested in the instructions.
+- The core logic for generating the pattern is missing from the provided HTML file. The JavaScript file linked in the HTML file needs to implement the loop-based pattern generation to fulfill the requirements.
+Correctness: 0%
+-----
