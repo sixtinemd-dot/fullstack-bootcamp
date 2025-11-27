@@ -5,6 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <style>#button {
+    color: rgb(26, 68, 203);
+    background-color: white;
+    border: 2px solid rgb(26, 68, 203);
+    width: 50px;
+    height: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 42, 148);
+    border: rgb(255, 42, 148);
+}
+
+#form {
+    text-align: center;
+}
+
+.taskItem {
+    text-align: center;
+    margin-top: 5px;
+}
+
+body {
+    background-color: pink;
+}
+
+#input {
+    border-radius: 8px;
+    border: 2px solid rgb(26, 68, 203);
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-size: large;
+}
+
+.taskItem label {
+    font-size: 18px;
+}
+
+
+.deleteButton {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 1px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.taskItem input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+</style>
 </head>
 <body>
     <h1>TO-DO LIST</h1>
@@ -16,5 +73,59 @@
     <div class="listTasks"></div>
 
 </body>
-<script src="daily_challenge.js"></script>
+<script src="daily_challenge.js">
+    const tasks = []
+
+const taskForm = document.getElementById("form")
+const submitButton = document.getElementById("button")
+let input = document.getElementById("input")
+let listTasks = document.querySelector(".listTasks")
+
+function addTask (e) {
+
+    e.preventDefault()
+
+        textInput = input.value
+
+        if (textInput === "") {
+            return
+
+        } else {
+            tasks.push(textInput)
+            const taskItem = document.createElement("div")
+            listTasks.appendChild(taskItem)
+            taskItem.classList.add("taskItem")
+
+            const label = document.createElement("label")
+            const checkbox = document.createElement("input")
+
+            checkbox.type = "checkbox"
+            checkbox.classList.add("checkBox")
+
+            label.appendChild(checkbox)
+
+            const taskTextNode = document.createTextNode(textInput)
+            label.appendChild(taskTextNode)
+
+            const deleteButton = document.createElement("i")
+            deleteButton.classList.add("deleteButton")
+            deleteButton.textContent = "X"
+
+            deleteButton.addEventListener("click", () => {
+        
+                listTasks.removeChild(taskItem)
+                const index = tasks.indexOf(textInput)
+                if (index > -1) tasks.splice(index, 1)
+            })
+
+            taskItem.appendChild(label)
+            taskItem.appendChild(deleteButton)
+
+            input.value = ""
+        }
+
+}
+
+taskForm.addEventListener("submit", addTask)
+</script>
 </html>
