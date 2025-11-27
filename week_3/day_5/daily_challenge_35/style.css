@@ -1,0 +1,56 @@
+#button {
+    color: rgb(26, 68, 203);
+    background-color: white;
+    border: 2px solid rgb(26, 68, 203);
+    width: 50px;
+    height: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 42, 148);
+    border: rgb(255, 42, 148);
+}
+
+#form {
+    text-align: center;
+}
+
+.taskItem {
+    text-align: center;
+    margin-top: 5px;
+}
+
+body {
+    background-color: pink;
+}
+
+#input {
+    border-radius: 8px;
+    border: 2px solid rgb(26, 68, 203);
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-size: large;
+}
+
+.taskItem label {
+    font-size: 18px;
+}
+
+
+.deleteButton {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 1px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.taskItem input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
