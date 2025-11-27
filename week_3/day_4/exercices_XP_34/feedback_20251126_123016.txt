@@ -1,0 +1,20 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_4/exercices_XP_34/exercice7_XP.html
+suggestions for improvement:
+- Consider moving the self-invoking function to a separate .js file for better organization, as it is now contained in a <script> tag within the HTML file.
+- While the image source works, it would be more robust to use a local image or a placeholder service for consistent results.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_4/exercices_XP_34/exercice7_XP.js
+suggestions for improvement:
+- Consider adding a default profile picture if one isn't available.
+- For improved security, sanitize the 'name' input to prevent potential XSS vulnerabilities, although the current usage is low risk.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_4/exercices_XP_34/exercice_XP.js
+suggestions for improvement:
+- In Exercise 1, while the predictions are correct, consider placing the prediction comments directly above the code block they refer to for clarity.
+- In Exercise 6, the self-invoking function returns a string but doesn't display it in the DOM as instructed.  You need to use `document.body.innerHTML = ...` or similar to display it.
+- In Exercise 7, the code is missing entirely.
+- In Exercise 5, weightConvert3 function's invoked but not console logged, change it to: console.log(weightConvert3(2))
+Correctness: 85%
+-----
