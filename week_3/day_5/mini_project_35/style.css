@@ -7,7 +7,7 @@
     width: 20%;
     position: absolute;
     float: left;
-    background-color: white;
+    background-color: lightgray;
     border: 5xp solid grey;
 }
 
@@ -38,13 +38,14 @@
     grid-template-rows: repeat(65, 1fr);
     height: 70vw;
     width: 70vw;
+    gap: 1px;
     margin: 0% 21%;
-    border: 5px solid grey;
+    border: 1px solid grey;
+    background-color: lightgray;
 
 }
 
 .gridDiv {
-    border: 1px solid rgb(180, 176, 176);
     background-color: white;
     transition: background-color 0.2s;
 }
