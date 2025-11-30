@@ -8,5 +8,43 @@
 <body>
     
 </body>
-<script src="daily_challenge.js"></script>
+<script src="daily_challenge.js">
+    class Video {
+    //1
+    constructor(title, uploader, time) {
+        this.title = title
+        this.uploader = uploader
+        this.time = time
+    }
+
+    //2
+    watch() {
+        console.log(`${this.uploader} watched all ${this.time} of ${this.title}!`)
+    }
+}
+
+//3 
+const video1 = new Video("Instagram", "John", 120)
+video1.watch()
+
+//4
+const video2 = new Video("Youtube", "Daniel", 400)
+
+//5
+// as an array of object for each video:
+//ex: 
+let videos = [
+    {title: "video1", uploader: "John", time: 222},
+    {title: "video2", uploader: "Jack", time: 333},
+    {title: "video3", uploader: "Jane", time: 60},
+    {title: "video4", uploader: "Josh", time: 7},
+    {title: "video5", uploader: "Jim", time: 900}
+]  
+
+//6
+for (let instance of videos) {
+    const video = new Video(instance.title, instance.uploader, instance.time)
+    video.watch()
+}
+</script>
 </html>
