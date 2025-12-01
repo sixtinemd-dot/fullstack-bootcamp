@@ -1,0 +1,18 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_5/mini_project_35/index.html
+suggestions for improvement:
+- The provided code only sets up the basic HTML structure with a sidebar (containing a clear button) and a grid container. It does not implement any of the core functionalities described in the Chapter Content/Questions, such as color selection, drawing on the grid, or handling mouse events. The Javascript file is only linked, not implemented.
+Correctness: 0%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_5/mini_project_35/mini_project.js
+suggestions for improvement:
+- Consider using a more descriptive variable name than `gridDiv` when creating individual grid cells inside the loop.
+- The logic for adding the `selectedIcon` could be encapsulated in a separate function to improve readability.
+- Consider using event delegation on the grid element instead of attaching event listeners to each cell. This would improve performance, especially for large grids.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_5/mini_project_35/style.css
+suggestions for improvement:
+- The code provided is CSS, which is relevant for styling the Coloring Squares project, but it doesn't implement the interactive functionality described in the project brief (DOM events, user color selection, drawing).
+- Consider adding Javascript to handle user interactions (color selection, mouse events for drawing).
+Correctness: 20%
+-----

@@ -1,0 +1,13 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_1/exercies_XP_31/exercices_XP.html
+suggestions for improvement:
+- In Exercise 1, using `shift()` instead of `splice(0, 1)` to remove the first element could be slightly more readable.
+- In Exercise 4, instead of hardcoding '1200' as the new rent, calculate the increase dynamically for better maintainability.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_1/exercies_XP_31/exercices_XP_31.js
+suggestions for improvement:
+- In Exercise 4, the requirement was to *increase* Dan's rent *to* 1200. The code currently *increases* Dan's rent *by* 1200.
+- In Exercise 1, `lastIndexOf` is not appropriate in finding the last name. Instead of using `people.lastIndexOf("Sixtine")`, use `people[people.length - 1]`
+- Bonus for Exercise 2 was not attempted.
+Correctness: 95%
+-----
