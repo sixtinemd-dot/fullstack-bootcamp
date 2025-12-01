@@ -1,0 +1,28 @@
+<!-- Exercise 2 : HTML Form #2
+Instructions
+Use the same form structure as Exercise 1.
+When you click the Send button, the form will be submitted with a POST method.(you can use the same HTML file for the action url)
+Where will the sent data appear?  
+
+with post method, the information is sent to the server as part of the data body and will not be visible in the URL box in the user’s browser.
+because the action in the form leads to the same html file, the data sent wont appear anywhere, it just reloads the page.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form" action="exercice1_XP.html" method="POST">
+        <label for="name">Name</label><br>
+        <input name="name"><br><br>
+        <label for="comments">Comments</label><br>
+        <textarea name="comments" rows="4" cols="15"></textarea><br><br>
+        <input type="submit" value="Send">
+
+    </form>
+</body>
+</html>

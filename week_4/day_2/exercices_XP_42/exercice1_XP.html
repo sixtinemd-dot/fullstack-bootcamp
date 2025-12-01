@@ -1,0 +1,32 @@
+<!-- Exercise 1 : HTML Form
+
+Create a form like the one above. The form should contain three inputs:
+a small text input asking for a name,
+a larger textarea input to write a message,
+a submit input (“Send”)
+
+When you click the Send button, the form will be submitted with a GET method. (you can use the same HTML file for the action url)
+Where will the sent data appear? 
+
+At the end of the url of the page. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form" action="exercice1_XP.html" method="GET">
+        <label for="name">Name</label><br>
+        <input name="name"><br><br>
+        <label for="comments">Comments</label><br>
+        <textarea name="comments" rows="4" cols="15"></textarea><br><br>
+        <input type="submit" value="Send">
+
+    </form>
+
+</body>
+</html>
