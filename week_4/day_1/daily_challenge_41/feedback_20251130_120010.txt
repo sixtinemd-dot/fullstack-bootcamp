@@ -1,0 +1,11 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_1/daily_challenge_41/daily_challenge.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_1/daily_challenge_41/index.html
+suggestions for improvement:
+- Consider moving the JavaScript code to an external file for better organization and separation of concerns.
+- Add comments to explain complex logic or calculations.
+Correctness: 100%
+-----
