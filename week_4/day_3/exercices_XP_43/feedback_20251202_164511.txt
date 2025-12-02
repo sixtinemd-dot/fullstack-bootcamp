@@ -1,0 +1,11 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_3/exercices_XP_43/exercices_XP.html
+suggestions for improvement:
+- Consider moving the script to an external .js file for better organization, especially as the code grows.
+- The template HTML code is unnecessary; the focus is on the JavaScript code.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_3/exercices_XP_43/exercices_XP.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
