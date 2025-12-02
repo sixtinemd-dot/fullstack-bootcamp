@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script src="daily_challenge1.js">
+    // 1st daily challenge
+// Create two functions. Each function should return a promise.
+// The first function called makeAllCaps(), takes an array of words as an argument
+// If all the words in the array are strings, resolve the promise. The value of the resolved promise is the array of words uppercased.
+// else, reject the promise with a reason.
+// The second function called sortWords(), takes an array of words uppercased as an argument
+// If the array length is bigger than 4, resolve the promise. The value of the resolved promise is the array of words sorted in alphabetical order.
+// else, reject the promise with a reason.
+
+function makeAllCaps(words) {
+    return new Promise((resolve, reject) => {
+        let wordsUp = []
+
+        for (let word of words) {
+            if (typeof word !== "string") {
+                reject("Not all strings in the array.")
+            }
+
+            let wordUp = word.toUpperCase()
+            wordsUp.push(wordUp)
+     }
+
+     resolve(wordsUp)
+})
+}
+
+function sortWords(wordsUp) {
+    return new Promise((resolve, reject) => {
+        if (wordsUp.length > 4) {
+            resolve(wordsUp.sort())
+        } else {
+            reject("Array is not long enough.")
+        }
+    })
+}
+</script>
+</html>
