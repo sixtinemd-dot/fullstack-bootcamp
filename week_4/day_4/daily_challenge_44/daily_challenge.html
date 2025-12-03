@@ -14,8 +14,58 @@
     <button id="deleteAll">DELETE ALL</button>
 
     <div id="gifsContainer">
-        
+
     </div>
 </body>
-<script src="daily_challenge.js"></script>
+<script src="daily_challenge.js">
+    let form = document.getElementById("form")
+let input = document.getElementById("input")
+const submit = document.getElementById("submit")
+const deleteAllButton = document.getElementById("deleteAll")
+let gifsContainer = document.getElementById("gifsContainer")
+
+function addGif(gifUrl) {
+    let div = document.createElement("div")
+
+    let img = document.createElement("img")
+    img.src = gifUrl
+
+    const deleteButton = document.createElement("button")
+    deleteButton.textContent = "DELETE GIF"
+
+    div.appendChild(img)
+    div.appendChild(document.createElement("br"))
+    div.appendChild(deleteButton)
+
+    gifsContainer.appendChild(div)
+
+    deleteButton.addEventListener("click", () => div.remove())
+}
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault()
+
+  const url = `https://api.giphy.com/v1/gifs/random?tag=${encodeURIComponent(input.value)}&rating=g&api_key=hpvZycW22qCjn5cRM1xtWB8NKq4dQ2My`
+
+  fetch(url)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error!: ${response.status}`)
+      }
+      return response.json()
+    })
+
+    .then(data => {
+      const gifUrl = data.data.images.fixed_height.url
+      addGif(gifUrl)
+    })
+    .catch(error => console.error("Something went wrong:", error))
+})
+
+deleteAllButton.addEventListener("click", () => {
+    gifsContainer.replaceChildren()
+})
+
+
+</script>
 </html>
