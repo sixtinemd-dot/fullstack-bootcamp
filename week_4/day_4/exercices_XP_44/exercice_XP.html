@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script src="exercice_XP.js">
+const url = "https://api.giphy.com/v1/gifs/search?q=hilarious&rating=g&api_key=hpvZycW22qCjn5cRM1xtWB8NKq4dQ2My"
+// EXERCICE 1
+fetch(url)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`HTTP error!: ${response.status}`)
+    } 
+    return response.json()
+    
+  })
+
+  .then(data => {
+    console.log("JS Object :", data)
+  })
+
+  .catch(error => {
+    console.error("Something went wrong:", error)
+  })
+
+// Exercise 2 
+
+const url2 = "https://api.giphy.com/v1/gifs/search?q=sun&limit=10&offset=2&rating=g&api_key=hpvZycW22qCjn5cRM1xtWB8NKq4dQ2My"
+
+fetch(url2)
+  .then(response => {
+    if(!response.ok) {
+        throw new Error(`HTTP error!: ${response.status}`)
+    } else {
+        return response.json()
+    }
+  })
+
+  .then(data => {
+    console.log("JS Object 2:", data)
+  })
+
+  .catch(error => {
+    console.error("Something went wrong: ", error)
+  })
+
+// Exercise 3 
+
+const fetchAsync = async() => {
+    try {
+        let response = await fetch("https://www.swapi.tech/api/starships/9/")
+
+        if (!response.ok) {
+            throw new Error(`HTTP error!: ${response.status}`)
+        }
+
+        let data = await response.json()
+        console.log(data.result)
+
+    } catch (error) {
+    console.error("Something went wrong:", error);
+    }
+}
+
+fetchAsync()
+
+
+// Exercise 4
+
+function resolveAfter2Seconds() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            resolve('resolved');
+        }, 2000);
+    });
+}
+
+async function asyncCall() {
+    console.log('calling');
+    let result = await resolveAfter2Seconds();
+    console.log(result);
+}
+
+asyncCall();
+
+// it will immediatly console log "calling", then wait 2 seconds (while we wait it will say promise: pending) and console log the result of the promise in the function ("resolved").
+
+</script>
+</html>
