@@ -1,0 +1,11 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_1/exercices_XP.html
+suggestions for improvement:
+- The HTML file includes a reference to an external JavaScript file but doesn't contain any JavaScript code to solve the provided exercises. Ensure the JavaScript file contains the solutions to the given problems.
+Correctness: 0%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_1/exercices_XP_31.js
+suggestions for improvement:
+- In Exercise 4, the increase of Dan's rent should be an assignment '=', not an addition '+=', based on the instructions. 
+- In Exercise 1, using `lastIndexOf` to get the last element is not the correct usage. `lastIndexOf` is for finding the last occurrence of a specific element.  The correct approach would be `people[people.length - 1]`.
+Correctness: 95%
+-----
