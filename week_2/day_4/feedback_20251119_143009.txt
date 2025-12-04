@@ -1,0 +1,12 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_2/day_4/daily_challenge_24.py
+suggestions for improvement:
+- In the `word_frequency` method, the `if word in text_list` check should be outside the loop to avoid returning prematurely. Also, the method name is misspelled as `word_frequecy`.
+- Consider using `collections.Counter` for more efficient word frequency counting in `most_common_word`.
+- Add error handling for file operations (e.g., handling `FileNotFoundError`).
+- Sanitize or validate file paths in `from_file` to prevent potential security vulnerabilities.
+Brief justification:
+- correctness: The code correctly implements most of the required functionality, including the `Text` class, `word_frequency`, `most_common_word`, `unique_words`, and `from_file`. However, the `word_frequency` method has a logical error that causes it to return prematurely and the method name is misspelled. The file reading functionality and `from_file` class method are implemented correctly according to the instructions.
+- readability: The code is generally well-structured and easy to follow. The use of comments to indicate each step enhances readability. Minor improvements could be made in variable naming and spacing for better clarity.
+- performance: The code's performance is adequate for small to medium-sized texts. Using `collections.Counter` for word frequency and sets for unique words would improve efficiency, especially for larger texts.
+- security: The `from_file` method could be vulnerable to path traversal attacks if the `file_path` is not validated. Sanitizing the input file path is important for security.
+
