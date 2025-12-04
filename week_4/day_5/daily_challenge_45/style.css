@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+
+div {
+    background-image: url("https://img.freepik.com/free-psd/money-illustration-isolated_23-2151568546.jpg?semt=ais_hybrid&w=740&q=80");
+    border: 2px solid black;
+    width: 740px;
+    padding-bottom: 20px;
+    margin-top: 150px;
+}
+
+select {
+    background-color: rgb(64, 164, 64);
+    color: white;
+}
+
+button {
+    background-color: rgb(230, 196, 44);
+    border: 1px solid black;
+}
+h1:hover {
+    color: blue;
+
+}
+
+p {
+    font-style: italic;
+}
+#result {
+    font-weight: bold;
+    font-style: normal;
+}
+
