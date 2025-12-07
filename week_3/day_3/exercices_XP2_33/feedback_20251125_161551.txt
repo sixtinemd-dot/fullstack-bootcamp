@@ -1,0 +1,26 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_3/exercices_XP2_33/exercice1_XP2.html
+suggestions for improvement:
+- The provided code is only the HTML structure and lacks the Javascript file content, which is essential to evaluate the correctness of the solutions for Exercise 1 and Exercise 2.
+- Without the Javascript file (exercice1_XP2.js), I cannot determine if the code correctly implements the setTimeout, setInterval, DOM manipulation, and animation as required by the exercises.
+- To accurately assess the code, please provide the content of the Javascript file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_3/exercices_XP2_33/exercice1_XP2.js
+suggestions for improvement:
+- In Part III, the `divLength` calculation is incorrect. `par.length` will always be undefined since `par` is a paragraph element, not a string or array. You should use `div.children.length` to get the number of child elements in the `div`.
+- In Part II, the `setTimeout` and `setInterval` for creating new paragraphs seem to overlap. The `setTimeout` creates only one paragraph after 2 seconds but the `setInterval` creates more.
+- In Part III, the `e.preventDefault()` within the button's event listener is unnecessary since the button is not inside a form.
+Correctness: 70%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_3/exercices_XP2_33/exercice2_XP2.html
+suggestions for improvement:
+- The provided code is just the HTML structure, it does not contain any Javascript code to address the exercises.
+- Therefore, it is impossible to assess the correctness, readability, performance and security of the Javascript code.
+Correctness: 0%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_3/exercices_XP2_33/exercice2_XP2.js
+suggestions for improvement:
+- Consider using `const` instead of `let` for variables that don't need reassignment (e.g., `container`, `box`, `button`).
+- While the code works, adding comments to explain the logic behind the `350` value in the `if (left >= 350)` condition would improve understanding.
+Correctness: 100%
+-----

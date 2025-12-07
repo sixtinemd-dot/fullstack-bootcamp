@@ -1,0 +1,11 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_1/daily_challenge1_31.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_1/daily_challenge1.html
+suggestions for improvement:
+- The HTML file only provides a basic structure and links to an external JavaScript file. The actual code to solve the problem is expected in the `daily_challenge1_31.js` file, which is missing. Therefore, the provided HTML doesn't contribute to solving the daily challenge.
+- Need to include the Javascript code in order to properly evaluate the response.
+Correctness: 0%
+-----
