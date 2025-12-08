@@ -1,0 +1,11 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_1/day_2/daily_challenge-12.py
+suggestions for improvement:
+- Use more descriptive variable names to improve readability. For example, `number_` and `length_` could be `number_str` and `length_str` before conversion to integers.
+- Consider using a `for` loop with `range` for Challenge 1, which can be more concise and readable than a `while` loop in this scenario.
+- Add input validation to ensure the user enters valid integers for Challenge 1 and a valid string for Challenge 2.
+Brief justification:
+- correctness: The code accurately solves both challenges as described in the Chapter Content/Questions. Challenge 1 correctly calculates and outputs a list of multiples, and Challenge 2 correctly removes consecutive duplicate letters from a string.
+- readability: The code is generally readable, but variable names could be more descriptive. The logic in both challenges is relatively straightforward to follow.
+- performance: The code's performance is efficient for the given tasks. The loops and string manipulation are performed in a way that doesn't introduce unnecessary overhead.
+- security: The code is reasonably secure for the given tasks. It uses `input()` to get user input, which is standard practice. However, adding input validation would enhance security by preventing potential errors or malicious inputs.
+
