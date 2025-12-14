@@ -1,0 +1,10 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_2/day_3/daily_challenge_23.py
+suggestions for improvement:
+- Consider using the `math.pi` constant for more accurate area calculations.
+- The `diameter` setter returns `new` which is not required.
+Brief justification:
+- correctness: The code accurately implements all the required functionalities of the `Circle` class, including radius/diameter definition, area calculation, string representation, addition, comparison, and sorting. It directly addresses all points in the chapter content.
+- readability: The code is generally well-formatted and easy to understand.  Using descriptive variable names enhances readability. There is room for improvement in some minor areas.
+- performance: The performance is good. The calculations are straightforward and efficient. No performance bottlenecks are apparent.
+- security: The code doesn't involve any external input or operations that could pose a security risk.
+

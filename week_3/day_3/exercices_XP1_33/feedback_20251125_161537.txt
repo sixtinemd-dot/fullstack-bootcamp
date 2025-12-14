@@ -1,0 +1,48 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_3/exercices_XP1_33/exercice1_XP1.html
+suggestions for improvement:
+- For bonus 1, you should add the hover event listener to the h1 element and implement the random font size change.
+- For bonus 2, you should add the hover event listener to the second paragraph and implement the fade-out animation using CSS.
+- Consider using querySelector and querySelectorAll for more specific targeting of elements.
+Correctness: 80%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_3/exercices_XP1_33/exercice1_XP1.js
+suggestions for improvement:
+- For better readability, use more descriptive variable names (e.g., instead of 'p', use 'paragraph').
+- Consider using querySelector and querySelectorAll for more flexible DOM selection.
+- The bonus exercises are not implemented, so the correctness is not 100%
+Correctness: 80%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_3/exercices_XP1_33/exercice2_XP1.html
+suggestions for improvement:
+- Consider moving the script to a separate file for better organization.
+- Cache the ul element outside the event listener since it's only needed once.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_3/exercices_XP1_33/exercice2_XP1.js
+suggestions for improvement:
+- Consider using more descriptive variable names for improved readability, especially when dealing with similar elements (e.g., `firstNameInput` instead of `input1`).
+- Cache the ul element outside the event listener for better performance, as it doesn't need to be retrieved every time the form is submitted.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_3/exercices_XP1_33/exercice3_XP1.html
+suggestions for improvement:
+- Consider declaring `allBoldItems` with `const` if its value will not be reassigned, or `let` if it will. Currently it's implicitly global due to the missing declaration keyword.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_3/exercices_XP1_33/exercice3_XP1.js
+suggestions for improvement:
+- Consider using `const` instead of `let` for `allBoldItems` since its value is assigned once and doesn't change after the `getBoldItems()` function is executed.
+- For better readability and maintainability, consider using CSS classes to manage the color changes instead of directly manipulating the style property in JavaScript. This approach decouples the styling from the JavaScript code.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_3/exercices_XP1_33/exercice4_XP1.html
+suggestions for improvement:
+- Consider adding error handling for non-numeric input in the radius field.
+- Use const for variables that do not change after initialization, such as the form element.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_3/exercices_XP1_33/exercice4_XP1.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
