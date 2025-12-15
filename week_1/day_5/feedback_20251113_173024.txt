@@ -1,0 +1,12 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_1/day_5/mini-project-15.py
+suggestions for improvement:
+- Consider refactoring the `check_win` function to use a loop or more concise logic, rather than explicitly checking each possible winning combination.
+- The main `play` function could be improved by initializing the board within the function rather than passing it as an argument; this enhances encapsulation.
+- Error handling could be more robust. For example, handling potential `ValueError` exceptions in the `player_input` function if the user enters non-numeric input after the initial check.
+- Use more descriptive variable names for better readability.
+Brief justification:
+- correctness: The code correctly implements the Tic Tac Toe game logic, including displaying the board, getting player input, checking for a winner, and checking for a tie. The game flow is managed correctly. However, there are some areas, like the repetitive `check_win` function, that could be improved. Thus, correctness is at 80%.
+- readability: The code is generally readable, with clear function definitions and comments. However, the repetitive nature of the `check_win` function and the lack of initialization in the `play` function slightly reduce readability. Some more descriptive variable names could also help.
+- performance: The code's performance is acceptable for this type of application. The game logic is straightforward, and there are no significant performance bottlenecks. However, avoiding the repetitive checks in `check_win` could offer a marginal performance improvement.
+- security: The code includes input validation to prevent invalid row/column entries, enhancing security. The use of `isdigit()` helps avoid `ValueError` exceptions. No apparent vulnerabilities.
+

@@ -1,0 +1,12 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_2/daily_challenge_42/daily_challenge.html
+suggestions for improvement:
+- The HTML provides the form structure, but the crucial JavaScript functionality for retrieving data, converting it to JSON, and appending it to the DOM is missing. The javascript file 'daily_challenge.js' needs to be implemented to satisfy the requirements.
+- The form's submit behavior needs to be handled in the javascript file, preventing the default form submission.
+Correctness: 0%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_2/daily_challenge_42/daily_challenge.js
+suggestions for improvement:
+- Consider adding more robust error handling, such as checking for empty input fields before creating the JSON object.
+- For improved user experience, clear the input fields after the data is successfully processed and displayed.
+Correctness: 100%
+-----
