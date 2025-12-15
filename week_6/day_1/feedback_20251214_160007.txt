@@ -1,0 +1,10 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_1/exercices_XP_61.sql
+suggestions for improvement:
+- Consider adding comments to explain the purpose of each SQL statement.
+- The code could be formatted for better readability, specifically in the INSERT statements.
+Brief justification:
+- correctness: The code accurately creates the tables as described in Exercise 1, inserts the specified data, and correctly answers all the SQL queries. The solution is complete and correct based on the requirements.
+- readability: The code is generally readable, with clear table and column names. However, the INSERT statements and table creation queries could be formatted for improved readability. The use of comments explaining the purpose of each query improves readability.
+- performance: The SQL queries are straightforward and efficient for the given data size. Indexing might be considered for larger datasets, but is not necessary here.
+- security: The code is safe in the context of the exercise. It uses parameterized queries, which helps to prevent SQL injection vulnerabilities. However, since there is no user input, the risk is low.
+
