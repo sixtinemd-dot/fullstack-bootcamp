@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Habits</title>
+</head>
+<body>
+    <button id="addNewHabitButton" onclick="location.href='add.html'">Add New Habit</button>
+
+    <div id="habitBoard">
+
+        <div id="column1" class="column">
+            <h2 style="color: red">To Do</h2>
+            <div class="columnList" id="todoList"></div>
+        </div>
+
+        <div  id="column2" class="column">
+            <h2 style="color: orange">In Progress</h2>
+            <div class="columnList" id="progressList"></div>
+        </div>
+
+        <div  id="column3" class="column">
+            <h2 style="color: green">Done</h2>
+            <div class="columnList" id="doneList"></div>
+        </div>
+
+    </div>
+
+    <a href="index.html">⬅ Back</a>
+
+</body>
+<script src="hackathon.js"></script>
+</html>

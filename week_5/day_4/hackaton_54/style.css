@@ -1,0 +1,349 @@
+button:hover {
+    background-color: #ccc;
+}
+
+
+.activeButton {
+    background-color: #343bf9 !important;
+    color: white !important;
+}
+
+body {
+    padding: 20px;
+    background-color: rgb(164, 236, 233);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* first page (index) */
+
+#greeting {
+    display: flex;           
+    flex-direction: column; 
+    align-items: center;      
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(3, 114, 233);
+    font-size: larger;
+}
+
+#welcome {
+    font-size: x-large;
+    margin-top: 20px;
+}
+
+#greetingButtons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 12px;                    /* Space between buttons */
+    justify-items: center;        /* Center buttons in each grid cell */
+    align-items: center; 
+
+}
+
+#greeting button {
+    
+    display: flex;                
+    justify-content: center;      
+    align-items: center;          
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    margin-bottom: 12px;
+    font-size: 100%;
+    width: 200px;
+    height: 100px;
+    font-weight: bold;
+    text-align: center; 
+}
+
+#greeting button:hover {
+    background-color: rgb(164, 236, 233) ;
+}
+
+/* habits.html */
+
+.popupBox {
+    display: none;
+    margin: 20px 0;
+}
+
+/* Flex container for habits display */
+#habitBoard {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.column {
+    flex: 1;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.columnList {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    min-height: 200px;
+}
+
+/* Cards */
+.habitCard {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftButton, .rightButton {
+    border: none;
+    background: #343bf9;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.deleteButton {
+    border: none;
+    background-color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+/* add.html */
+/* Predefined option selected */
+.habitOptionButton.selected {
+    background-color: #343bf9;
+    color: white;
+}
+
+#doneList .habitCard{
+    background-color: rgb(55, 147, 55);
+}
+
+#addBody {
+    text-align: center;
+}
+
+#back1 {
+    text-align: left;
+}
+
+#seeHabits {
+    text-align: right;
+}
+
+#habitCategories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 12px;                   
+    justify-items: center;  
+    align-items: center; 
+    margin: 0px 80px;
+}
+
+.categoryButton {
+    display: flex;                
+    justify-content: center;      
+    align-items: center;          
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    margin-bottom: 12px;
+    margin-top: 20px;
+    font-size: 100%;
+    width: 200px;
+    height: 80px;
+    font-weight: bold;
+    text-align: center; 
+}
+
+#habitOptions {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 12px;                   
+    justify-items: center;  
+    align-items: center; 
+    margin: 0px 80px;
+}
+
+.habitOptionButton {
+    display: flex;                
+    justify-content: center;      
+    align-items: center;          
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    margin-bottom: 12px;
+    font-size: 100%;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    text-align: center; 
+}
+
+#chooseP {
+    color: rgb(3, 114, 233);
+    font-size: 170%;
+}
+
+.choose {
+    margin: 0px 20px 10px;
+    color: rgb(3, 114, 233);
+    font-size: larger;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+}
+
+.categoryButton.selectedCategory {
+    background-color: #343bf9;
+    color: white;
+}
+
+#addNewHabitButton {
+    border-radius: 8px;
+    background-color: rgb(42, 139, 76);
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid #cccccc;
+}
+
+#addNewHabitButton:hover {
+    background-color: rgb(22, 106, 48);
+}
+
+#habitInputDiv {
+    margin: 20px 0px;
+}
+
+#input {
+    padding: 8px 0px 8px 5px;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+}
+
+a {
+    position: absolute;
+    bottom: 10px;
+    font-weight: bold;
+    color: blue;
+    padding: 10 px;
+}
+
+#seeHabits {
+    width: 50%;
+}
+
+a:hover {
+    color: rgb(216, 79, 141);
+}
+
+/* calender  */
+
+#streakTitle {    
+    text-align: center;
+    margin: 80px 0px;
+    color: rgb(3, 114, 233);
+    font-size: 200%;
+}
+
+#monthTitle {    
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(3, 114, 233);
+    font-size: 160%;
+}
+
+#calendar {
+    width: 320px;
+    margin: 0px auto 120px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 6px;
+}
+
+.day {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 1px solid #ccc;
+}
+
+.day.completed {
+    background: rgb(55, 147, 55);
+    color: white;
+}
+
+.taskCount {
+    font-size: 10px;
+    position: absolute;
+    bottom: 2px;
+    right: 4px;
+    color: #333;
+}
+
+/* mood  */
+
+#moodTitle {
+    text-align: center;
+    margin-top: 60px;
+    color: rgb(3, 114, 233);
+    font-size: 200%;
+}
+
+#moodQuestion {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(3, 114, 233);
+    font-size: 150%;
+}
+
+#moodButtons {
+    margin: 40px 0px;
+    text-align: center;
+}
+.mood {
+    font-size: 300%;
+    margin: 0px 10px;
+    border-radius: 40px;
+    padding: 0px 10px;
+    border: 1px solid #ccc;
+}
+
+#quoteButton {
+    margin: 0px 20px 10px;
+    color: rgb(3, 114, 233);
+    font-size: larger;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+}
+
+#quotes {
+    text-align: center;
+}
+
+.mood.selected {
+    background-color: aqua;
+}
+
+#quote {
+    font-size: larger;
+}
