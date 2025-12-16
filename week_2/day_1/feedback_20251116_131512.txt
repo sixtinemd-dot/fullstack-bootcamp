@@ -1,0 +1,7 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_2/day_1/exercices-XP-21.py
+Brief justification:
+- correctness: The code accurately implements all the exercises as described in the chapter content. Each class and its methods function correctly according to the instructions, covering object creation, attribute handling, and method calls.
+- readability: The code is well-structured and easy to understand, with clear naming conventions and comments separating the exercises.
+- performance: The code exhibits good performance, with efficient implementations of the required functionalities. The algorithms used are straightforward and do not introduce unnecessary overhead.
+- security: The code does not involve any external input or operations that could introduce security vulnerabilities. The data handling is limited to internal class attributes and method parameters.
+

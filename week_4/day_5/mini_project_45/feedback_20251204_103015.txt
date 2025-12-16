@@ -1,0 +1,19 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_5/mini_project_45/index.html
+suggestions for improvement:
+- Separate the CSS into an external file (style.css) for better organization and maintainability.
+- Consider adding error handling within the `addChar` function in case the data received from the API is incomplete or malformed.
+- Move the event listener setup outside the script tag to ensure it's properly attached after the DOM is fully loaded.
+Correctness: 80%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_5/mini_project_45/mini_project.js
+suggestions for improvement:
+- Consider adding error handling to the homeworld fetch to display a user-friendly error message on the page instead of just logging to the console.
+- Consider using `async/await` syntax to make the code more readable, especially the nested `fetch` calls.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_5/mini_project_45/style.css
+suggestions for improvement:
+- The provided code is only CSS and does not implement any of the required JavaScript functionality for fetching data from the Star Wars API, displaying it on the page, or handling loading/error states.
+- The code needs to include JavaScript to fulfill the requirements of the project.
+Correctness: 0%
+-----

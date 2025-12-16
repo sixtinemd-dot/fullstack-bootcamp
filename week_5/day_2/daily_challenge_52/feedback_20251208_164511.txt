@@ -1,0 +1,13 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_5/day_2/daily_challenge_52/daily_challenge.js
+suggestions for improvement:
+- Consider adding type annotations to the parameters and return values of the methods for improved readability.
+- No specific security vulnerabilities are apparent, but always be mindful of potential injection issues if user input is used to construct queries or commands.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_5/day_2/daily_challenge_52/daily_challenge.ts
+suggestions for improvement:
+- Consider adding error handling for edge cases, such as an empty library when calling `listBooks` or `getBookDetails`.
+- The getBookDetails method could return a `Book` object or null instead of a string. This would give the caller more flexibility.
+- Consider adding some comments to explain complex logic.
+Correctness: 100%
+-----
