@@ -1,0 +1,11 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_1/day_3/exercices-XP-13.py
+suggestions for improvement:
+- Consider adding a docstring at the beginning of the file to briefly describe the purpose of the script.
+- While the comments within each exercise are helpful, consider adding a brief overall comment summarizing the entire script's purpose and the exercises it contains.
+- For better readability, especially in larger dictionaries like `brand`, consider breaking up long lines into multiple lines.
+Brief justification:
+- correctness: All four exercises are completed correctly. The code accurately implements the instructions for each exercise, including dictionary creation, manipulation, looping, conditionals, and calculations, as described in the Chapter Content/Questions. The bonus question in Exercise 2 was skipped, but all other aspects were completed well.
+- readability: The code is generally well-organized and easy to follow, with appropriate comments and variable names. However, long lines in dictionary definitions could be broken up for better readability.
+- performance: The code uses efficient methods for dictionary creation and manipulation (e.g., `zip`, `enumerate`). The loops and conditionals are straightforward and perform well for the given data sizes. There are no obvious performance bottlenecks.
+- security: The code does not involve any user input (except potentially for the bonus in Exercise 2, which was not implemented). Therefore, there are minimal security concerns. The code does not handle any external data or perform any operations that could be vulnerable to security risks.
+
