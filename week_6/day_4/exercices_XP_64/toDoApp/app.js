@@ -1,8 +1,9 @@
-import { TodoList } from "./toDo.js";
+import { TodoList } from "./toDoApp/todo.js";
 
 const todo = new TodoList();
 
 todo.addTask("Learn Node");
-todo.addTask("Practice JS");
+
 todo.completeTask("Learn Node");
+
 todo.listTasks();

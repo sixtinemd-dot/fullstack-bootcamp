@@ -4,15 +4,16 @@ export class TodoList {
   }
 
   addTask(task) {
-    this.tasks.push({ task, completed: false });
+    this.tasks.push({ task, done: false });
   }
 
   completeTask(task) {
     const t = this.tasks.find(t => t.task === task);
-    if (t) t.completed = true;
+    if (t) t.done = true;
   }
 
   listTasks() {
     console.log(this.tasks);
   }
 }
+

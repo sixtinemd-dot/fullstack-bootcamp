@@ -1,7 +1,6 @@
-const lodash = require("lodash");
-const math = require("./math");
+const _ = require("lodash");
+const { add, multiply } = require("./math");
 
-console.log("Addition:", math.add(5, 3));
-console.log("Multiplication:", math.multiply(4, 6));
-
-console.log("Lodash sum:", lodash.sum([1, 2, 3, 4]));
+console.log(add(2, 3));
+console.log(multiply(4, 5));
+console.log(_.sum([1, 2, 3]));
