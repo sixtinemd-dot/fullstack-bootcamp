@@ -1,0 +1,12 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_2/day_4/excercices_XP_24.py
+suggestions for improvement:
+- In `get_words_from_file`, you can simplify the word extraction using a list comprehension for better readability and efficiency: `words = [word.strip() for word in f.readlines()]`
+- In `get_random_sentence`, sentence_list is initialized outside of the function, which causes the list to keep appending words to the list and never be empty if the code is run again. Should be initialized inside the function.
+- For JSON exercise, it is better to include a `try...except` block for error handling, such as handling `FileNotFoundError` when trying to open the file.
+- The json.dump method has a sort_keys parameter that enables the keys to be ordered alphabetically.
+Brief justification:
+- correctness: The code correctly implements both exercises as described in the chapter content. Exercise 1 generates a random sentence of a specified length and Exercise 2 accesses a nested key in a JSON string, adds a new key, and saves the modified JSON to a file. There's a minor issue with `sentence_list` not being cleared in `get_random_sentence`, and the file path in `get_words_from_file` which is fixed in the feedback. Overall, the code fulfills the requirements well. Therefore the correctness is 90%.
+- readability: The code is reasonably well-structured and easy to follow. Function and variable names are descriptive. Adding comments to explain each step further would improve readability, especially in the JSON part where the logic is more concise. The code is consistently indented. Overall readability is good, so it's rated at 85%.
+- performance: The code's performance is adequate for the given tasks.  Using list comprehension to read words from the file would slightly improve the performance. The operations are not computationally intensive, therefore 90% for the performance.
+- security: The code doesn't handle external inputs or perform operations that could be considered insecure, assuming the provided `words.txt` and JSON structure are trusted.  The input validation in `main` prevents basic errors.  Overall, security is fairly good, hence 90%.
+
