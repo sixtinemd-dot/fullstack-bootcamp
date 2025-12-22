@@ -1,0 +1,7 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_2/daily_challenge_62.sql
+Brief justification:
+- correctness: The code provides the SQL queries as described in the chapter content and correctly predicts their outputs. Each question's predicted output is accurate based on the provided table data and SQL logic, especially considering the impact of NULL values in the NOT IN clauses.
+- readability: N/A
+- performance: N/A
+- security: N/A
+

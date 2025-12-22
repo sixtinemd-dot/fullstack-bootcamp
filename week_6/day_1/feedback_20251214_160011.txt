@@ -1,0 +1,9 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_1/daily_challenge_61.sql
+suggestions for improvement:
+- Consider removing commented-out code that is not directly related to the challenge to improve readability.
+Brief justification:
+- correctness: The code correctly addresses the two parts of the instructions. It counts the number of actors in the table using `SELECT COUNT(*) FROM actors` and attempts to insert a new actor with missing fields, predicting and demonstrating the resulting error. This directly aligns with the chapter content's instructions.
+- readability: The code is generally well-formatted and includes comments explaining the different SQL commands. However, there is a lot of commented-out code that is not strictly necessary for the Daily Challenge, which can reduce readability. Using more whitespace between sections could improve the visual clarity.
+- performance: The SQL queries are simple and efficient for the given task, resulting in excellent performance.
+- security: The provided SQL code doesn't involve any user input or dynamic query generation, so there are no apparent security concerns.
+
