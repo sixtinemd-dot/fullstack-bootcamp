@@ -16,6 +16,9 @@ router.post('/', (req, res) => {
     if (!title) {
         return res.status(400).json({message: 'Title is required'})
     }
+    if (!req.body.title || typeof req.body.title !== 'string') {
+        return res.status(400).json({ message: 'Invalid title' });
+    }
 
     const newTodo = {
         id: nextId++,
