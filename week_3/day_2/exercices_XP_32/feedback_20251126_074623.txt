@@ -1,0 +1,38 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_2/exercices_XP_32/exercice5.html
+suggestions for improvement:
+- ul1.lastElementChild should be ul1.children[1] because 'Pete' is the second child, not the last.
+- ul1.classList.add('university', 'attedance'); 'attedance' has a typo. it should be 'attendance'
+Correctness: 75%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_2/exercices_XP_32/exercice5.js
+suggestions for improvement:
+- There's a typo ('attedance' instead of 'attendance').
+- It's better to use querySelectorAll instead of getElementsByTagName for more specific targeting.
+- Consider using CSS classes instead of inline styles for better maintainability.
+Correctness: 80%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_2/exercices_XP_32/exercice6.html
+suggestions for improvement:
+- Consider placing the JavaScript code within the `<head>` section or before the closing `</body>` tag to ensure the DOM is fully loaded before the script executes. This helps prevent errors related to accessing elements that haven't been rendered yet.
+- While using `getElementsByTagName("ul")[0]` works, it might be more robust to assign an ID to the `<ul>` element and select it using `document.getElementById`. This makes your code less susceptible to changes if the order or number of `<ul>` elements in your HTML changes.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_2/exercices_XP_32/exercice6.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_2/exercices_XP_32/exercices_XP.html
+suggestions for improvement:
+- Exercise 2: Bonus does not work correctly, the item price is discounted from the stock no matter how many of it there are. The item price should only discount from the stock if the amount is > 0.
+- Exercise 4: the totalVacationCost() console.log is wrapped inside a console.log. It does not need to be wrapped.
+- Exercise 7: You did not display the image on the screen. Please add to the DOM. The width should also be 100px.
+Correctness: 80%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_2/exercices_XP_32/exercices_XP.js
+suggestions for improvement:
+- In Exercise 2, the itemPrice is calculated using `stock[item] * prices[item]`, but based on the instructions, you only have *1* of each item in your cart. The calculation should just be `prices[item]`. 
+- In Exercise 4, the car rental discount calculation is incorrect. It subtracts 5% of the total cost instead of discounting the total cost by 5%. It should be `rentalcarCost = car * 40 * 0.95` instead of `rentalcarCost = car * 40 * 0.05`
+- In Exercise 4, you can improve the code by using a single prompt inside the `totalVacationCost` function and passing the values to the other functions. This directly addresses the bonus requirement.
+Correctness: 75%
+-----

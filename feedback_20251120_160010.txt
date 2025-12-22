@@ -1,0 +1,12 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_2/day_5/daily_challenge_25.py
+suggestions for improvement:
+- Consider adding docstrings to your methods to explain what they do.
+- The `build` method could be incorporated into the `__init__` method for more concise deck creation.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_2/day_5/card.py
+suggestions for improvement:
+- The provided code snippet relies on an external module `daily_challenge_25`, which is not included.  Therefore, it's impossible to assess its correctness without seeing the implementation of the `Deck` class.
+- To properly evaluate the code, include the definition of the `Deck` class within the submission.
+Correctness: 0%
+-----
