@@ -1,7 +1,7 @@
 {
   "name": "exercice1",
   "version": "1.0.0",
-  "description": "",
+  "description": "Exercise 1 - Express app with homepage and about page routes implemented in app.js and routes/index.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,6 +1,13 @@
+/**
+ * Exercise 3 - Routes for Book Management API
+ * Mounted in app.js at '/books'
+ * Implements CRUD operations: GET, POST, PUT, DELETE
+ */
+
 const express = require('express');
 const router = express.Router();
 
+// In-memory database for books
 let books = []
 let nextId = 1
 
@@ -10,7 +17,7 @@ router.get('/', (req, res) => {
     res.json(books)
 })
 
-// add a book
+// POST add a book
 
 router.post('/', (req, res) => {
     const {title, author} = req.body
@@ -29,7 +36,7 @@ router.post('/', (req, res) => {
     res.status(201).json(newBook)
 })
 
-//update a book
+// PUT update a book
 
 router.put('/:id', (req, res) => {
     const id = parseInt(req.params.id);
@@ -47,7 +54,7 @@ router.put('/:id', (req, res) => {
     res.json(book)
 })
 
-// delete a book
+// DELETE a book
 
 router.delete('/:id', (req,res) => {
     const id = parseInt(req.params.id)

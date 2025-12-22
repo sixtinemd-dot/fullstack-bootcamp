@@ -1,7 +1,7 @@
 {
   "name": "exercice2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Exercise 2 - To-Do List API using Express.js and routes/todos.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

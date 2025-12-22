@@ -1,15 +1,23 @@
+/**
+ * Exercise 2 - Routes for To-Do List API
+ * Mounted in app.js at '/todos'
+ * Implements CRUD operations: GET, POST, PUT, DELETE
+ */
+
 const express = require('express');
 const router = express.Router();
 
+
+// In-memory database for demonstration
 let todos = [];
 let nextId = 1;
 
+// GET all todos
 router.get('/', (req, res) => {
     res.json(todos);
 });
 
-//add a to do
-
+// POST create new todo
 router.post('/', (req, res) => {
     const {title} = req.body;
 
@@ -30,8 +38,8 @@ router.post('/', (req, res) => {
     res.status(201).json(newTodo)
 })
 
-// update a to do by ID
 
+// PUT update todo by ID
 router.put('/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const todo = todos.find(t => t.id === id)
@@ -48,8 +56,7 @@ router.put('/:id', (req, res) => {
     res.json(todo)
 })
 
-// delete a to do by ID
-
+// DELETE a to do by ID
 router.delete('/:id', (req, res) => {
     const id = parseInt(req.params.id)
     const index = todos.findIndex(i => i.id === id)
