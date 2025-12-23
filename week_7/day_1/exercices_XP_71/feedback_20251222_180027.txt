@@ -1,0 +1,60 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_1/exercices_XP_71/exercice1/app.js
+suggestions for improvement:
+- Complete the `routes/index.js` file to define the routes and their corresponding responses as described in Exercise 1.
+- Add necessary middleware for parsing request bodies if you plan to handle POST or PUT requests in future exercises.
+- Consider using a more robust error handling mechanism, especially for production environments.
+Correctness: 50%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_1/exercices_XP_71/exercice1/package.json
+suggestions for improvement:
+- The submission only contains package.json, while all exercises require app.js and route files to be created and implemented.
+- Need to create app.js to setup Express application.
+- Need to create route files for each exercise, implementing the required functionalities.
+- Need to implement the logic for each route, including handling requests and responses.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_1/exercices_XP_71/exercice1/routes/index.js
+suggestions for improvement:
+- Provide the code for app.js to complete the first exercise and to allow for the express app to be initialized.
+- Provide the code for the remaining exercises.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_1/exercices_XP_71/exercice2/app.js
+suggestions for improvement:
+- Complete the `todos.js` file with the CRUD operations (GET, POST, PUT, DELETE) for the to-do list API as outlined in Exercise 2.  The current code only sets up the Express app and mounts the router, but it doesn't implement the core functionality.
+- Add error handling to your routes to manage potential issues such as invalid IDs or missing data.
+- Consider using a more robust database solution instead of an in-memory array for persistent storage.
+Correctness: 50%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_1/exercices_XP_71/exercice2/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, not the actual implementation of the Express.js application and routes as required by Exercises 1, 2, and 3. It only describes the project's metadata and dependencies.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_1/exercices_XP_71/exercice2/routes/todos.js
+suggestions for improvement:
+- Consider adding input validation and sanitization to prevent potential injection attacks.
+- Implement more robust error handling, such as logging errors for debugging purposes.
+- For larger applications, consider using a database instead of an in-memory array to store to-do items.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_1/exercices_XP_71/exercice3/app.js
+suggestions for improvement:
+- The `books.js` file is missing. The instructions specify creating routes within this file using `express.Router()`. Complete the implementation of CRUD operations (GET, POST, PUT, DELETE) within `books.js` to fully address the exercise's requirements.
+- Error handling could be improved. Consider adding more specific error messages and status codes in the routes within `books.js` to provide better feedback to the client.
+- Consider using more descriptive variable names to improve readability. For example, `bookRouter` could be named `booksRouter`.
+Correctness: 75%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_1/exercices_XP_71/exercice3/package.json
+suggestions for improvement:
+- The provided code snippet is a `package.json` file, which describes the project's metadata and dependencies. While creating such a file is part of the setup process described in the exercises, it doesn't actually implement any of the core functionalities (creating routes, handling requests, etc.) that the exercises focus on. Therefore, it doesn't directly address the problem or implement the functionality described in the chapter content.
+- To address the exercise, you should provide the actual JavaScript code for `app.js` and the router files (`index.js`, `todos.js`, or `books.js`), including the route definitions and request handling logic.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_1/exercices_XP_71/exercice3/routes/books.js
+suggestions for improvement:
+- Consider using a more robust data storage solution instead of in-memory storage for production environments.
+- Implement validation and sanitization to prevent injection attacks.
+- Add error handling for unexpected errors or edge cases.
+Correctness: 100%
+-----
