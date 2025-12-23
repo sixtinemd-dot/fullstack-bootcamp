@@ -1,7 +1,7 @@
 {
   "name": "daily_challenge_71",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Trivia Quiz game built with Express.js. Users can answer hard-coded questions, track their score, and see feedback for each answer.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
