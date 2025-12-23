@@ -1,0 +1,35 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_2/exercices_XP_32/exercice5.html
+suggestions for improvement:
+- The HTML structure provided is correct, but there's no JavaScript code to assess.  The instructions specifically require JavaScript to manipulate the DOM elements.
+- To fulfill the requirements, you need to add a JavaScript file (exercice5.js) and link it to the HTML.  Within this file, you must implement the DOM manipulation steps outlined in Exercise 5.
+Correctness: 0%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_2/exercices_XP_32/exercice5.js
+suggestions for improvement:
+- Small typo in 'attedance', should be 'attendance'.
+- The problem specified the last <li> of the *second* ul should be set to none and it seems to do that with the *first* ul instead.
+Correctness: 90%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_2/exercices_XP_32/exercice6.html
+suggestions for improvement:
+- The provided HTML code is only a part of exercise 6. There is no JavaScript code provided, therefore the exercise is not complete.
+Correctness: 0%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_2/exercices_XP_32/exercice6.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_2/exercices_XP_32/exercices_XP.html
+suggestions for improvement:
+- The HTML file only sets up the basic structure and links to a JavaScript file, but it doesn't contain any code that directly addresses any of the exercises described in the Chapter Content/Questions. Therefore, it doesn't implement any of the required functionality.
+- The provided HTML is only a shell. The Javascript file (exercices_XP.js) which is not present here should contain the solution to the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_2/exercices_XP_32/exercices_XP.js
+suggestions for improvement:
+- In Exercise 1, the requirement was to console.log each number individually, rather than pushing them into an array and then logging the array. You can improve Exercise 4 by implementing the bonus to use one prompt instead of three separate prompts.
+- In Exercise 7, while displaying the book details, you are not including the image tag. Also, the image url is taken directly from google search results, it should be a direct link to a hosted image for a more stable implementation.
+- The code in myBill() in Ex2 calculates the itemPrice incorrectly `let itemPrice = stock[item] * prices[item]` should be `let itemPrice = prices[item]`
+Correctness: 75%
+-----

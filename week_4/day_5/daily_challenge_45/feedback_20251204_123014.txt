@@ -1,0 +1,21 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_5/daily_challenge_45/daily_challenge.js
+suggestions for improvement:
+- The switchCurrencies function duplicates a lot of code from convertCurrencies. Consider refactoring to avoid duplication.
+- The logic inside the switchButton event listener can be simplified.  The result of `convertCurrencies()` is a Promise, and its resolved value is not being checked; so the condition `if (convertCurrencies())` will not work as intended. The button should always switch the currencies, and then re-run the conversion.
+Correctness: 90%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_5/daily_challenge_45/index.html
+suggestions for improvement:
+- The API key is exposed in the client-side code. While this is for a demo, it's best practice to handle API keys securely (e.g., using environment variables on a backend server).
+- Consider adding error handling to the `convertCurrencies` function to handle potential API errors or invalid responses more gracefully.  Displaying user-friendly error messages in the UI improves user experience.
+- The switch currencies functionality could be improved for a better user experience. Currently, it only works if `convertCurrencies()` returns a truthy value. Consider saving the values of the 'from' and 'to' currencies in variables and swapping them directly, then calling `convertCurrencies()` with the new values.  This would make the switch functionality more robust.
+- Duplicated code in `convertCurrencies` and `switchCurrencies`. Create a common function for fetching and displaying the converted value, and call it from both event listeners.
+Correctness: 80%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_5/daily_challenge_45/style.css
+suggestions for improvement:
+- The provided code is CSS styling. It needs to include JavaScript code to use Fetch API and async/await to interact with the exchangerate-api to build the currencies converter application.
+- The code is missing the core logic for fetching currency options and conversion rates from the API as described in the instructions.
+- The JavaScript part to create the currencies converter: HTML elements, event listeners, Fetch API calls, and async/await handling is totally missing.
+Correctness: 0%
+-----
