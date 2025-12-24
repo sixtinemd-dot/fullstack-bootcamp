@@ -1,0 +1,13 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_5/day_3/exercices_XP_53/exercices_XP.js
+suggestions for improvement:
+- In Exercise 6, correct the typo: 'developper' should be 'developer'. Also, the department property in employee1 is misspelled ('departement').
+- In Exercise 6, use a type guard (e.g., `if ('position' in employee)`) to check if the object actually has the properties expected of an `Employee` before accessing `employee.position`. While the current code works for the given example, adding this check would enhance its robustness and align better with type guard principles.
+- In Exercise 3, while the code casts `someValue` to a string, it doesn't actually *use* it as a string in a way that demonstrates the benefit of type casting (e.g., calling a string-specific method). Consider adding such a usage to better illustrate the concept.
+- In Exercise 4, although the code uses a type assertion, the task requires returning the first element *as a string*. If the first element is a number, it should be converted to a string.
+Correctness: 92%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_5/day_3/exercices_XP_53/exercices_XP.ts
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
