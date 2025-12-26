@@ -1,0 +1,13 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_1/exercices_XP_31.js
+suggestions for improvement:
+- In exercise 4, when increasing Dan's rent, you are adding 1200 to the current rent instead of assigning 1200 to it. It should be building.numberOfRoomsAndRent.dan[1] = 1200; to ensure the rent is set to the desired value.
+- In exercise 1, instead of using lastIndexOf you should be using property length to find the last element of the array.
+- In the Rudolf exercise, the sentence construction can be improved for readability. Instead of concatenating with spaces, consider using template literals for clearer formatting.
+Correctness: 95%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_1/exercices_XP.html
+suggestions for improvement:
+- The HTML structure provided does not contain any JavaScript code that addresses the exercises. The instructions specify JavaScript tasks involving arrays, loops, conditionals, and objects, but this file only sets up a basic HTML structure to link to a JavaScript file.
+- The linked JavaScript file (exercices_XP_31.js) would contain the actual code that needs to be evaluated. To accurately assess this response, the content of 'exercices_XP_31.js' is required.
+Correctness: 0%
+-----
