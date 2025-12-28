@@ -1,0 +1,20 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_5/mini_project_35/index.html
+suggestions for improvement:
+- Consider separating the CSS into an external file for better organization and maintainability.
+- The JavaScript code could benefit from more comments, especially explaining the purpose of each section and the logic behind event listeners.
+- The color selection icon placement could be improved for better user experience. It currently appends the icon, potentially messing up the color box.
+Correctness: 80%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_5/mini_project_35/mini_project.js
+suggestions for improvement:
+- Consider extracting some of the logic into smaller, more manageable functions to further improve readability.
+- Instead of directly manipulating the DOM in the loop that creates the grid, consider using document fragments for better performance.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_5/mini_project_35/style.css
+suggestions for improvement:
+- The CSS provided only styles the elements, it doesn't implement the functionality of the coloring squares game.  JavaScript is needed to handle user interaction, color selection, and drawing on the grid.
+- Consider using CSS variables for consistent styling and easier modification.
+- The grid size (65x65) is hardcoded. It would be better to make it configurable or dynamically adjust it based on screen size.
+Correctness: 0%
+-----
