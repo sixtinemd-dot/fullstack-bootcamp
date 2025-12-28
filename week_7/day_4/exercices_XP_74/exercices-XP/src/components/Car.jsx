@@ -1,3 +1,5 @@
+//exercice 1
+
 import { useState } from "react";   // Import useState hook from React
 import Garage from "./Garage";      // Import the Garage component
 
