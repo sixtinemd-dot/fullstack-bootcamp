@@ -1,0 +1,14 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_2/exercice1_XP_62.sql
+suggestions for improvement:
+- Consider adding comments to explain complex queries, especially the joins and subqueries.
+- Use consistent naming conventions for aliases (e.g., all lowercase or uppercase).
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_2/exercice2_XP_62.sql
+suggestions for improvement:
+- Consider adding comments to explain complex queries or logic.
+- For question 8, using a parameter for the movie title would be more flexible.
+- For question 9, using ILIKE for case-insensitive matching might be useful.
+- For question 11, the question asked for not using LIMIT, and while OFFSET is used with a LIMIT clause, it's only to grab a 'page' of results. The bonus was satisfied.
+Correctness: 100%
+-----
