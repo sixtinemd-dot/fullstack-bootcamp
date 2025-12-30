@@ -1,0 +1,23 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_8/day_2/exercices_XP_82/exercices-xp/src/ErrorBoundary.jsx
+suggestions for improvement:
+- The ErrorBoundary component should set the `error` property in the state to `null` initially, and update it in `componentDidCatch`.
+- The error value is set to `null` as requested, but it's never used.
+- The state should contain both `error` and `errorInfo` properties, as used in the render method. Currently, it only contains `hasError`.
+- The logic for checking the error state in the `render` method should use `this.state.hasError` instead of `this.state.errorInfo` to determine whether to display the fallback UI.
+Correctness: 50%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_8/day_2/exercices_XP_82/exercices-xp/src/FavoriteColor.jsx
+suggestions for improvement:
+- Consider extracting the `Child` component to its own file for better organization, especially in larger projects.
+- While the `getSnapshotBeforeUpdate` method is correctly implemented, ensure it is used to capture some information and use in `componentDidUpdate` if the functionality required it. Currently it is just logging to the console
+- Add more comments to the code to explain the purpose of each section, making it easier for others to understand.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_8/day_2/exercices_XP_82/exercices-xp/src/App.jsx
+suggestions for improvement:
+- Consider creating separate components for each simulation in Exercise 1 to improve code organization.
+- While the code functions, adding comments explaining the purpose of each section (Simulation 1, 2, 3) would increase readability.
+- In the `handleClick` function of `BuggyCounter`, destructuring `counter` from the previous state is not strictly necessary, but good practice. Ensure consistency throughout the project.
+- Ensure that the FavoriteColor component implements the lifecycle methods as described in Exercise 2.
+Correctness: 90%
+-----

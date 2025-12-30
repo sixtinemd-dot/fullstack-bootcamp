@@ -1,0 +1,33 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_4/exercices_XP_74/exercices-XP/src/components/Car.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_4/exercices_XP_74/exercices-XP/src/components/Garage.jsx
+suggestions for improvement:
+- The component is correct but it only corresponds to part of Exercise 1 Part III. It needs to be integrated into the Car component.
+- Consider adding prop types for better code maintainability and to ensure the `size` prop is of the expected type.
+Correctness: 10.0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_4/exercices_XP_74/exercices-XP/src/components/Events.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_4/exercices_XP_74/exercices-XP/src/components/Phone.jsx
+suggestions for improvement:
+- Consider adding PropTypes for better component validation.
+- The <br/><br/> can be replaced with a margin/padding top or bottom for styling the spacing in the `p` tag and `h1` tag
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_4/exercices_XP_74/exercices-XP/src/components/Color.jsx
+suggestions for improvement:
+- Consider adding a dependency array to the useEffect hook to control when it runs, preventing it from running on every render if not necessary. For example: useEffect(() => { alert("useEffect reached"); }, []);
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_4/exercices_XP_74/exercices-XP/src/App.jsx
+suggestions for improvement:
+- The App.js only imports the Components, and calls them. There is no implementation of the logic required in the App.js
+- The logic for each component should be in it's appropriate file.
+Correctness: 0%
+-----
