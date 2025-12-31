@@ -41,13 +41,23 @@
   color: #888;
 }
 
-.carousel img {
+.carousel-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.carousel .slide img {
   height: 500px;
   object-fit: cover;
 }
 
 .carousel .thumb {
-  height: 200px;
-  width: 200px;
-  object-fit: contain;
+  height: 60px;
+  border-radius: 6px;
+  border: 2px solid transparent;
+}
+
+.carousel .thumb img {
+  object-fit: cover;
+  height: 100%;
 }
