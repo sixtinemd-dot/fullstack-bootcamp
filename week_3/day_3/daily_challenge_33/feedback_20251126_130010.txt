@@ -1,0 +1,12 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_3/daily_challenge_33/daily_challenge.html
+suggestions for improvement:
+- Add validation to ensure the input values are not empty.  The instructions specifically state: 'Make sure the values are not empty'.
+- Consider adding the bonus feature of a 'shuffle' button to display different story variations using the same input values.
+Correctness: 80%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_3/daily_challenge_33/daily_challenge.js
+suggestions for improvement:
+- Consider adding input validation to ensure that the values entered are of the correct type, if desired.
+- Implement the bonus feature to add a shuffle button to change the displayed story.
+Correctness: 100%
+-----
