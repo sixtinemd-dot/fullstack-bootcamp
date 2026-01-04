@@ -1,0 +1,12 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_4/daily_challenge_44/daily_challenge.html
+suggestions for improvement:
+- Consider adding error handling for edge cases, such as empty search input.
+- The code could benefit from more comments explaining complex logic.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_4/daily_challenge_44/daily_challenge.js
+suggestions for improvement:
+- Consider adding error handling to the delete functionality to catch any potential issues.
+- While using `replaceChildren()` is efficient for deleting all elements, ensure it has good browser compatibility or use a polyfill if necessary for older browsers.
+Correctness: 100%
+-----

@@ -1,0 +1,11 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_4/daily-challenge-74/src/App.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_4/daily-challenge-74/src/App.css
+suggestions for improvement:
+- The provided code is CSS, but the instructions asked for React code to create a voting app.
+- The CSS code focuses on styling the root element and a div, which is not directly related to the core logic of the voting app as described in the problem statement.
+Correctness: 0%
+-----
