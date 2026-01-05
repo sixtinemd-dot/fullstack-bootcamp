@@ -8,7 +8,7 @@ import ThemeSwitcher from "./components/ThemeSwitcher";
  */
 function App() {
   // Get the current theme from context
-  const { theme } = useContext(ThemeContext);
+  const { theme } = useTheme();
 
   // Simple inline styles based on theme
   const styles = {

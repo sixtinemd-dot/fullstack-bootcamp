@@ -3,8 +3,10 @@ import TaskList from "./components/TaskList";
 
 function App() {
   return (
-    <div style={{ padding: "2rem" }}>
+    <div>
       <h1>Task Manager</h1>
+      <p>Add, edit, and filter tasks</p>
+
       <TaskInput />
       <TaskList />
     </div>
@@ -12,3 +14,4 @@ function App() {
 }
 
 export default App;
+
