@@ -1,0 +1,36 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/exercices_XP_91/exercice1/src/context/ThemeContext.jsx
+suggestions for improvement:
+- The provided code snippet is incomplete as it only defines the `ThemeContext` and `ThemeProvider`. To fully address Exercise 1, it needs to include the `useTheme` hook, the `ThemeSwitcher` component and integrate them within an `App` component as shown in the example starter code.
+- To enhance readability and maintainability, consider adding comments to explain the purpose of each section of the code.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/exercices_XP_91/exercice1/src/context/useTheme.jsx
+suggestions for improvement:
+- The submitted code snippet only contains the `useTheme` custom hook. To complete Exercise 1, the `ThemeContext.js` and `App.js` files provided in the example starter code should also be implemented to provide a fully functional theme switcher.
+- The code does not implement Exercise 2, which requires a character counter using useRef.
+- The code does not implement Exercise 3, which involves creating a Todo List using useReducer.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/exercices_XP_91/exercice1/src/components/ThemeSwitcher.jsx
+suggestions for improvement:
+- This code snippet is incomplete, it only shows a ThemeSwitcher component and imports ThemeContext. It needs to be part of a bigger solution that implements the context creation and usage as described in Exercise 1.
+- The provided snippet by itself does not allow verification of full correctness, and therefore it is not considered as fulfilling the exercise.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/exercices_XP_91/exercice1/src/App.jsx
+suggestions for improvement:
+- The provided code snippet is incomplete; it relies on `useTheme` and `ThemeSwitcher` which are not defined in the given `App.js`. A complete app would be needed.
+- The code uses inline styles, which can become difficult to manage in larger applications. Consider using CSS classes and conditional class names instead.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/exercices_XP_91/exercice2/src/components/CharacterCounter.jsx
+suggestions for improvement:
+- Consider adding a CSS file to style the component instead of relying on default browser styles.
+- Add comments to explain the purpose of each state variable and function.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/exercices_XP_91/exercice2/src/App.jsx
+suggestions for improvement:
+- Consider adding a max length to input field.
+Correctness: 100%
+-----
