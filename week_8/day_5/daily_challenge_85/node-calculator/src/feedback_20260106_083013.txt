@@ -1,0 +1,20 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_8/day_5/daily_challenge_85/node-calculator/src/App.css
+suggestions for improvement:
+- The provided code is CSS, which is styling and not the React component code required by the problem description.  Therefore, it does not address the problem at all.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_8/day_5/daily_challenge_85/node-calculator/src/App.jsx
+suggestions for improvement:
+- The provided code only sets up the main App component to render a Calculator component. To fully address the challenge, the Calculator component itself needs to be implemented with React state, input elements, button to perform the calculation, and display the result.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_8/day_5/daily_challenge_85/node-calculator/src/components/Calculator.css
+suggestions for improvement:
+- The code provided is only CSS styling and does not contain any React code to implement the calculator functionality as described in the problem.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_8/day_5/daily_challenge_85/node-calculator/src/components/Calculator.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
