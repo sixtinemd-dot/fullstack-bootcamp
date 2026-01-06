@@ -1,0 +1,100 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/exercice1/products.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/exercice1/shop.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/exercice2/app.js
+suggestions for improvement:
+- Consider adding error handling for the case where the input array is empty to prevent division by zero.
+- You could use more descriptive variable names (e.g., `person` instead of `p` in the reduce function) for improved readability, though it's reasonably clear as is.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/exercice2/data.js
+suggestions for improvement:
+- This code snippet only contains the data definition part of Exercise 2, and does not include the complete solution. To fully address Exercise 2, the `app.js` file with the import statement and the average age calculation logic needs to be implemented.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/exercice3/app.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/exercice3/byeWorld.txt
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/exercice3/fileManager.js
+suggestions for improvement:
+- The callbacks in `readFileSync` and `writeFileSync` are not needed, remove them, as synchronous functions do not use callbacks.
+- Add error handling to the functions. While the exercise doesn't explicitly require it, it's good practice, especially since the prompt includes the `fs` module documentation, which contains error handling patterns.
+- Consider using `try...catch` blocks for error handling around file operations.
+- The `readFile` function does not return the file content when there is no error, add this functionality.
+Correctness: 75%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/exercice3/helloWorld.txt
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/file-explorer/copy-file.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/file-explorer/destination.txt
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/file-explorer/read-directory.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/file-explorer/source.txt
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/mathApp/app.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/mathApp/math.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/mathApp/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file which describes the project's metadata and dependencies, but it doesn't implement the core logic of the exercise.  The exercise asked for code defining a math module and using it with lodash.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/npm-beginner/app.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/npm-beginner/package.json
+suggestions for improvement:
+- The provided code is a package.json file, not the app.js file as requested in Exercise 6, therefore it does not address the exercise's requirements.
+- The exercise asked for code that uses the `chalk` package to style terminal output. The `package.json` only defines project metadata and dependencies.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/toDoApp/app.js
+suggestions for improvement:
+- The code in app.js seems correct, but requires files (todoApp/todo.js) that are not provided. To get a full score, it has to be a working project.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/toDoApp/toDo.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----

@@ -1,0 +1,16 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_5/day_2/exercices_XP_52/exercices_XP.js
+suggestions for improvement:
+- In Exercise 1, the properties `name` and `salary` should be declared as `private`, and `department` as `protected`. Also, the method name is misspelled (`getEmplyeeInfo`).
+- In Exercise 1, the constructor parameters' names are different from the class properties' names. It would improve readability if you use the same names.
+- In Exercise 2, the code includes a commented-out line that attempts to modify the `readonly` property `id`. This is good for demonstrating the intended behavior, but a brief comment explaining why it's commented out would be helpful.
+- In Exercise 3, the base `Animal` class's `makeSound` method takes a sound parameter that is not used when overridden in the derived class.  It is misleading to have this parameter.
+- In Exercise 5, the function `printUserDetails` incorrectly uses `User.name` instead of `User.email` when printing the email. This should be corrected.
+- Consider adding type annotations in function parameters and return types for better code clarity and maintainability.
+Correctness: 80%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_5/day_2/exercices_XP_52/exercices_XP.ts
+suggestions for improvement:
+- Typo in Exercise 1: getEmplyeeInfo should be getEmployeeInfo.
+- Typo in Exercise 5: email: ${User.name} should be email: ${User.email} in printUserDetails function.
+Correctness: 100%
+-----
