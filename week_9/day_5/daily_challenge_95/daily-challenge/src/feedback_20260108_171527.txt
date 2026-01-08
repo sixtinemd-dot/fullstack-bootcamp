@@ -1,0 +1,47 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/daily_challenge_95/daily-challenge/src/App.jsx
+suggestions for improvement:
+- The provided code defines the basic structure of the App component, rendering `DayPicker`, `AddTask`, and `TaskList` components. However, it doesn't include the core functionality requested in the instructions: editing tasks, filtering tasks by completion status, and utilizing `useRef`, `useContext`, and `useReducer` to manage these features. The provided code is incomplete and doesn't address the prompts requirements, such as edit and filter tasks based on status.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/daily_challenge_95/daily-challenge/src/components/AddTask.jsx
+suggestions for improvement:
+- The code is not related to the task of implementing task editing and filtering using `useContext`, `useReducer`, and `useRef`.
+- The code uses Redux, which is not mentioned in the instructions. It also doesn't address task editing or filtering by status.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/daily_challenge_95/daily-challenge/src/components/DayPicker.jsx
+suggestions for improvement:
+- This code uses Redux, which is not mentioned or suggested in the problem description. The problem description specifically asks for using useContext, useReducer, and useRef to implement task editing and filtering features in a Task Manager application.
+- The component provided is a 'DayPicker' which allows the user to select a date, which is irrelevant to the task at hand.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/daily_challenge_95/daily-challenge/src/components/TaskList.jsx
+suggestions for improvement:
+- The provided code only implements task deletion using Redux, which is not related to the instructions in the prompt. The prompt asks for editing and filtering using useContext, useReducer and useRef.
+- The code uses connect from 'react-redux', while the prompt specifically asks for useContext, useReducer, and useRef. The two technologies are not compatible.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/daily_challenge_95/daily-challenge/src/main.jsx
+suggestions for improvement:
+- The provided code initializes a React application using Redux, but it does not implement any of the features described in the prompt, such as editing tasks, filtering tasks, or using `useRef`, `useContext`, or `useReducer` as requested by the problem description. The prompt specifically requested enhancement of an existing Task Manager application with edit and filter functionalities.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/daily_challenge_95/daily-challenge/src/redux/actions.js
+suggestions for improvement:
+- The provided code defines action types and action creators but doesn't include the reducer implementation, the component using `useContext` and `useRef`, or the filtering functionality as required by the prompt. A complete solution would need to provide the reducer logic and component implementation.
+- Consider implementing the filtering functionality as outlined in the instructions.
+Correctness: 50%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/daily_challenge_95/daily-challenge/src/redux/reducer.js
+suggestions for improvement:
+- The reducer correctly implements the EDIT_TASK action, which addresses part of the requirement. However, it does not include any functionality for filtering tasks by completion status, which is a significant part of the problem description.
+- The reducer logic is relatively straightforward and easy to follow.
+- Consider adding error handling or validation for input data to improve robustness.
+- The reducer uses immutable updates, which is good for performance and predictability in React applications.
+Correctness: 60%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/daily_challenge_95/daily-challenge/src/redux/store.js
+suggestions for improvement:
+- The provided code uses Redux, which is not mentioned or required by the chapter content. The chapter specifically asks for `useContext`, `useReducer`, and `useRef`.
+Correctness: 0%
+-----
