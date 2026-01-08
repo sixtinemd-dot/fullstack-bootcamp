@@ -1,0 +1,14 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_1/daily_challenge_71/routes/quiz.js
+suggestions for improvement:
+- Consider using a more robust method for storing quiz state (e.g., sessions or a database) instead of in-memory variables, especially for multiple users.
+- Input sanitization and validation could be added to prevent potential issues with user input.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_1/daily_challenge_71/app.js
+suggestions for improvement:
+- The code only sets up the Express app and mounts the quiz router. It doesn't include any of the core quiz logic (questions, answers, score tracking, answer submission, etc.) as specified in the problem description.
+- The `quizRouter` is imported but its contents are unknown, so it is not possible to determine if it follows the problem statement.
+- Consider implementing the quiz routes (GET /quiz, POST /quiz, GET /quiz/score) and their corresponding logic within the `quizRouter` module.
+- Implement the simple game logic such as displaying the next question after answering one and store the user score and current question index.
+Correctness: 0%
+-----

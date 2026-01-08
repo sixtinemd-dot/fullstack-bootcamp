@@ -1,0 +1,10 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_5/day_1/daily_challenge_51/daily_challenge.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_5/day_1/daily_challenge_51/daily_challenge.ts
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----

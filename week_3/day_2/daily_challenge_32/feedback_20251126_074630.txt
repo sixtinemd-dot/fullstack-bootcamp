@@ -1,0 +1,12 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_2/daily_challenge_32/daily_challenge.html
+suggestions for improvement:
+- Consider moving the JavaScript code to an external file to improve HTML structure and maintainability.
+- For larger projects, using a more structured approach (e.g., object-oriented programming) for planet data might be beneficial.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_2/daily_challenge_32/daily_challenge.js
+suggestions for improvement:
+- Consider using a more descriptive variable name than 'item' in the loop for enhanced readability.
+- Using background colors directly in the javascript is generally acceptable in this case. However, for larger projects, it might be beneficial to define those in CSS and toggle classes on the planet elements.
+Correctness: 100%
+-----
