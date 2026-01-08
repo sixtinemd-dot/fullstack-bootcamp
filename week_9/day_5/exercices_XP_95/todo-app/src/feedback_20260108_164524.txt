@@ -1,0 +1,46 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/exercices_XP_95/todo-app/src/App.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/exercices_XP_95/todo-app/src/components/TodoInput.jsx
+suggestions for improvement:
+- The code only implements the 'addTodo' functionality and omits the 'toggle' and 'remove' functionalities, which are explicitly mentioned in the instructions.
+- While the component is connected to Redux, the implementation only covers adding a todo. The instructions mention the need to map state properties and action dispatchers, but this component only deals with dispatching the 'addTodo' action.
+- The structure for handling actions/reducers/store is not provided in the code. Without it, it is difficult to assess the entire correctness of the submission.
+Correctness: 50%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/exercices_XP_95/todo-app/src/components/TodoList.jsx
+suggestions for improvement:
+- The code covers displaying todos, toggling completion, and removing todos as required by the exercise instructions. However, it omits the crucial functionality of adding new todos. This is a significant omission.
+- While `mapStateToProps` is correctly implemented, the action creators are directly passed to `connect`. It's better practice to explicitly define `mapDispatchToProps` for clarity and potential future modifications.
+- Consider using more descriptive variable names within the component for better readability. For instance, instead of just 'todo', use 'currentTodo' or 'item'.
+- Add prop types to the component to improve code maintainability.
+Correctness: 70%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/exercices_XP_95/todo-app/src/main.jsx
+suggestions for improvement:
+- Consider adding more descriptive comments to enhance readability, especially for complex logic within components or Redux-related files.
+- Optimize component rendering by using memoization techniques like React.memo or shouldComponentUpdate, especially if the todo list grows larger.
+- Implement input validation and sanitization to prevent potential security vulnerabilities, such as XSS attacks, if user input is rendered directly.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/exercices_XP_95/todo-app/src/redux/actions.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/exercices_XP_95/todo-app/src/redux/reducer.js
+suggestions for improvement:
+- Consider using `immer` library to simplify immutable state updates, although the current implementation is correct.
+- For larger applications, using a more robust ID generation strategy (like UUIDs) might be preferable to avoid potential ID collisions, although the current approach is sufficient for the given exercise.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/exercices_XP_95/todo-app/src/redux/store.js
+suggestions for improvement:
+- You should include the definitions of actions (action types and action creators).
+- You should include the definition of the reducer (todoReducer).
+- Implement the React components as described in the instructions.
+- Connect the React components to the Redux store using `connect` from `react-redux`.
+Correctness: 30%
+-----
