@@ -1,0 +1,10 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_3/exercices_XP_63/exercice1_XP.sql
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_3/exercices_XP_63/exercice2_XP.sql
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
