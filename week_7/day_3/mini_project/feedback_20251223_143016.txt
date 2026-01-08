@@ -1,0 +1,26 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_3/mini_project/data/tasks.json
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_3/mini_project/index.js
+suggestions for improvement:
+- The code only sets up the Express app and mounts the tasks router. It does not include the actual implementation of the task routes (GET, POST, PUT, DELETE) or the JSON file storage, which are key requirements of the chapter content.
+- The code should include validation logic for incoming task data as mentioned in the chapter content.
+- The code should implement error handling for file read/write operations as mentioned in the chapter content.
+- It would be helpful to include the 'tasks.js' file to see the implementation of the routes.
+Correctness: 50%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_3/mini_project/package.json
+suggestions for improvement:
+- The provided package.json does not implement any of the required API endpoints or functionality related to task management, such as creating routes, reading/writing to a JSON file, or handling errors.  It only sets up basic project metadata and declares a dependency on Express.
+- The instructions specify using express.Router, which is not present in the package.json.  Implementation of CRUD operations for '/tasks' is entirely missing.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_3/mini_project/routes/tasks.js
+suggestions for improvement:
+- Consider using asynchronous file operations (fs.readFile/writeFile) to avoid blocking the event loop, especially in a production environment.
+- The ID generation using `Date.now().toString()` is simple but might not be robust enough for high-traffic applications. Consider using a UUID library.
+- Add more comprehensive validation for the request body, especially for the PUT route, to prevent unexpected data types from being saved.
+Correctness: 100%
+-----
