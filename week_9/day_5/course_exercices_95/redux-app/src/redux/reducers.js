@@ -1,0 +1,16 @@
+import { ACTION_DECREMENT, ACTION_INCREMENT, ACTION_INPUT } from "./actions";
+
+const initialState = {
+  count: 5,
+};
+
+export const counterReducer = (state = initialState, action) => {
+  if (action.type === ACTION_INCREMENT) {
+    return { ...state, count: state.count + 1 };
+  } else if (action.type === ACTION_DECREMENT) {
+    return { ...state, count: state.count - 1 };
+  } else if (action.type === ACTION_INPUT) {
+    return { ...state, count: state.count + action.payload };
+  }
+  return state;
+};
