@@ -1,0 +1,13 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_2/day_5/game.py
+suggestions for improvement:
+- The `__init__` method in the `Game` class can be removed or used to initialize game-related data.
+- Consider adding docstrings to each method to improve readability and understanding.
+- Although input validation is present, consider adding more robust error handling (e.g. handling unexpected exceptions).
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_2/day_5/rock_paper_scissors.py
+suggestions for improvement:
+- Consider using a dictionary or constants for menu options instead of hardcoded numbers for better readability and maintainability.
+- Add more descriptive comments to explain the purpose of each section, especially in the main function.
+Correctness: 100%
+-----

@@ -1,0 +1,51 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_4/exercices_XP_74/exercice-one/src/App.jsx
+suggestions for improvement:
+- The prompt describes a series of exercises which involve creating multiple components and adding event handlers and state. This code only implements the first part of Exercise 1 Part 1
+- The Car component should be created as a functional component using props to pass in data
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_4/exercices_XP_74/exercice-one/src/components/Car.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_4/exercices_XP_74/exercice-one/src/components/Garage.jsx
+suggestions for improvement:
+- The component only addresses part 3 of exercise 1. It needs to implement parts 1 and 2 as well to fully address the instructions.
+Correctness: 10.0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_4/exercices_XP_74/exercice-two/src/App.jsx
+suggestions for improvement:
+- This code only imports and renders the `Events` component in `App.js`. It does not address any of the specific instructions in Exercise 1, 3, and 4 such as creating the `Car` and `Garage` components, using the useState hook, implementing the Phone component, or utilizing the useEffect hook. It only partially addresses Exercise 2.
+- To properly address all exercises, you need to create all the components specified, implement the state and event handling logic as described in the instructions, and ensure that they are correctly rendered and interact as expected.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_4/exercices_XP_74/exercice-two/src/components/Events.jsx
+suggestions for improvement:
+- Consider using more descriptive variable names if the component becomes more complex.
+- For Part II, consider clearing the input field after the 'Enter' key is pressed for better UX.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_4/exercices_XP_74/exercice-three/src/App.jsx
+suggestions for improvement:
+- The provided code shows the usage of the `Phone` component in the `App` component. However, it doesn't contain the actual code for the exercises, namely: Car.js, Garage.js, Events.js, and Color.js. Therefore, it's impossible to assess the correctness based solely on this.
+- The code needs to include the implementations for Exercises 1, 2, 3, and 4. These exercises involve creating components, using state and useEffect hooks, and implementing event handlers.
+- Include the component files with the functional components and their implementations to complete the assessment.
+Correctness: 0.0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_4/exercices_XP_74/exercice-three/src/components/Phone.jsx
+suggestions for improvement:
+- Consider adding PropTypes for better component documentation and debugging.
+- Code is well-structured and easy to follow.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_4/exercices_XP_74/exercice-four/src/App.jsx
+suggestions for improvement:
+- The `App.js` only imports and renders the `<Color />` component. It does not fulfill any of the requirements of Exercises 1, 2, or 3. It also doesn't completely implement Exercise 4, as it only renders the component, but the logic inside the `Color` component is not provided.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_4/exercices_XP_74/exercice-four/src/components/Color.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
