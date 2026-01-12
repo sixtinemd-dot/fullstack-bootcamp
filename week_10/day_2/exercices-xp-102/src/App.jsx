@@ -1,3 +1,6 @@
+// App component renders UserData,
+// which is connected to Redux store via useSelector and useDispatch
+
 import React from "react";
 import UserData from "./components/UserData";
 

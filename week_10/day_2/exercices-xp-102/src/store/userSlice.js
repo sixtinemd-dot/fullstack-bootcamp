@@ -1,3 +1,6 @@
+// This slice handles user state.
+// Async logic is implemented in userThunks.js using Redux Thunk.
+
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {

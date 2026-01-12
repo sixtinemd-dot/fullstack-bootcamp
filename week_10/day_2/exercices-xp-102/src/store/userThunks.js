@@ -6,12 +6,13 @@ import {
 
 // Thunk action creator
 export const fetchUser = () => async (dispatch) => {
-  dispatch(fetchUserStart()); // start loading
+  dispatch(fetchUserStart());
 
   try {
-    const response = await fetch(
-      "https://jsonplaceholder.typicode.com/users/1"
-    );
+    // Simulated error for testing (comment out in production)
+    // throw new Error("Simulated API failure");
+
+    const response = await fetch("https://jsonplaceholder.typicode.com/users/1");
 
     if (!response.ok) {
       throw new Error("Failed to fetch user");
@@ -19,8 +20,13 @@ export const fetchUser = () => async (dispatch) => {
 
     const data = await response.json();
 
-    dispatch(fetchUserSuccess(data)); // success
+    if (!data) {
+      throw new Error("No user data received");
+    }
+
+    dispatch(fetchUserSuccess(data));
   } catch (error) {
-    dispatch(fetchUserFailure(error.message)); // failure
+    dispatch(fetchUserFailure(error.message));
   }
 };
+
