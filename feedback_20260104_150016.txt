@@ -1,0 +1,35 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/exercices_XP_91/exercice1/src/context/ThemeContext.jsx
+suggestions for improvement:
+- The code provided only defines the `ThemeContext` and `ThemeProvider`. To fully address the theme switcher exercise, you need to implement the `useTheme` hook and create a component that uses the context to toggle and apply themes.
+- Additionally, the character counter and todo list exercises were not addressed.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/exercices_XP_91/exercice1/src/components/ThemeSwitcher.jsx
+suggestions for improvement:
+- This code snippet is not a standalone application and lacks the context setup needed to execute properly. It assumes the existence of ThemeContext and a parent component that provides the context.
+- The code only presents a ThemeSwitcher component, neglecting the broader application setup, where theme styles are applied based on the context value, as described in the exercise instructions.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/exercices_XP_91/exercice1/src/App.jsx
+suggestions for improvement:
+- The submitted code does not implement the character counter or the todo list. It only implements the Theme Switcher from Exercise 1. To address this, implement the CharacterCounter and TodoList components according to the instructions in Exercises 2 and 3 respectively.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/exercices_XP_91/exercice1/src/main.jsx
+suggestions for improvement:
+- The provided code snippet is only for rendering the App component within the ThemeProvider. It doesn't implement any of the exercises directly.
+- To address Exercise 1, include the ThemeContext.js and App.js code to have a functioning theme switcher.
+- To address Exercise 2, include the CharacterCounter.js code to have a functional character counter.
+- To address Exercise 3, include the TodoList.js code to have a functional todo list.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/exercices_XP_91/exercice2/src/components/CharacterCounter.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/exercices_XP_91/exercice2/src/App.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----

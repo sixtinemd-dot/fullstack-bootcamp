@@ -1,0 +1,12 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/exercices_XP_91/exercice2/src/components/CharacterCounter.jsx
+suggestions for improvement:
+- Consider adding a more descriptive name for the component.
+- Adding comments can make code easier to understand, especially when complex logic is involved.
+- For larger projects, consider using a linter and formatter to maintain consistent code style.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/exercices_XP_91/exercice2/src/App.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----

@@ -1,0 +1,18 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_5/daily_challenge_35/daily_challenge.js
+suggestions for improvement:
+- Consider using more descriptive variable names for better readability (e.g., `taskText` instead of `textInput`).
+- Implement Bonus I to store tasks as objects with properties like `task_id`, `text`, and `done`. This aligns with the more advanced requirements of the exercise.
+- Consider using `const` instead of `let` for variables that don't need to be reassigned (e.g., `taskForm`, `submitButton`).
+- The code could be improved by adding data attributes to the task items for easier identification and manipulation, as suggested in Bonus I.
+Correctness: 90%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_5/daily_challenge_35/index.html
+suggestions for improvement:
+- The provided HTML code only sets up the basic structure of the to-do list, including the form and the div where tasks will be displayed. It doesn't include any of the JavaScript functionality required by the prompt, such as adding tasks to an array, dynamically adding elements to the DOM, or implementing the bonus features. Since no JavaScript functionality has been implemented, the code is not solving the problem or implementing the functionalities described in the chapter content/questions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_5/daily_challenge_35/style.css
+suggestions for improvement:
+- The provided code is CSS, not JavaScript. It does not address the core requirements of the problem, which involve creating a to-do list with JavaScript functionalities.
+Correctness: 0%
+-----
