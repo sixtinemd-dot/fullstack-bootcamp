@@ -1,0 +1,21 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_5/daily_challenge_35/daily_challenge.js
+suggestions for improvement:
+- Consider using `createElement` for the 'X' button instead of `textContent = 'X'`. This allows for more consistent styling and avoids potential issues with character encoding.
+- For better performance with larger lists, consider using a document fragment to build the task item before appending it to the DOM.
+- Consider using more descriptive variable names (e.g., `taskInput` instead of `textInput`).
+- For the delete button, consider using a data attribute to store the index of the task to be deleted, instead of searching for the index with `tasks.indexOf(textInput)`, This could be inefficient for larger lists.
+- Implement the BONUS I to improve the functionality of the to-do list.
+Correctness: 90%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_5/daily_challenge_35/index.html
+suggestions for improvement:
+- Consider using font awesome for the "X" button as suggested in the instructions.
+- Implement the bonus features to enhance the functionality: change the tasks array to an array of objects with properties like task_id, text, and done, implement the doneTask function and implement the deleteTask function
+- Add CSS in a separate file for better organization and maintainability.
+Correctness: 80%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_5/daily_challenge_35/style.css
+suggestions for improvement:
+- The provided code is CSS, but the question explicitly asks for HTML and JS as well to make the to-do list function. Without the HTML and JS, the problem cannot be solved.
+Correctness: 0%
+-----
