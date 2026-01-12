@@ -1,0 +1,43 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_1/daily_challenge_101/daily-challenge/src/App.jsx
+suggestions for improvement:
+- The provided code snippet only sets up the basic structure of the App component, importing and rendering the DatePicker, AddTask, and TaskList components. It doesn't include any Redux setup, actions, reducers, or connect any of the components to the Redux store as described in the instructions. Therefore, it does not address the core requirements of the problem.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_1/daily_challenge_101/daily-challenge/src/components/AddTask.jsx
+suggestions for improvement:
+- Consider adding input validation to prevent excessively long task descriptions.
+- The `addTask` action in `plannerSlice` needs to be implemented (this component alone doesn't fulfill the whole requirement).
+- The component relies on `selectedDate` from the Redux store, which means the date selection mechanism needs to be implemented elsewhere.
+Correctness: 70%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_1/daily_challenge_101/daily-challenge/src/components/DatePicker.jsx
+suggestions for improvement:
+- The DatePicker component needs to be connected to the overall task management system. The prompt asks for TaskList, AddTask, EditTask, DeleteTask components integrated with Redux, but this component is isolated.
+- Consider adding error handling, for instance, checking if the selected date is a valid date before dispatching the action.
+- The component currently only allows date selection. Consider adding calendar visualization and navigation for better UX as requested by the prompt.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_1/daily_challenge_101/daily-challenge/src/components/TaskItem.jsx
+suggestions for improvement:
+- Consider adding input validation to the edit task input field to prevent empty or excessively long task descriptions.
+- The component re-renders on every keystroke in the input. Explore debouncing or throttling the input change handler for performance optimization, especially for long task descriptions.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_1/daily_challenge_101/daily-challenge/src/components/TaskList.jsx
+suggestions for improvement:
+- Consider adding a conditional check to display a message when there are no tasks for the selected day. This enhances the user experience.
+- Ensure TaskItem component correctly implements edit and delete functionality, as described in the instructions.
+Correctness: 70%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_1/daily_challenge_101/daily-challenge/src/redux/plannerSlice.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_1/daily_challenge_101/daily-challenge/src/redux/store.js
+suggestions for improvement:
+- The code only sets up the Redux store. It needs to also implement the actions and reducers as described in Step 2. Specifically, 'Task Actions' and 'Reducers' sections in Step 2 should be implemented in plannerSlice.
+- While store configuration is correct, the `plannerReducer` should contain the actual reducer logic for handling tasks (add, edit, delete), which is currently missing from the snippet. This logic needs to be added to the `plannerSlice.js` file.
+- The initial state of the planner, which should hold tasks for different days, is not defined or initialized in this snippet. This should be part of the `plannerSlice` definition.
+Correctness: 50%
+-----
