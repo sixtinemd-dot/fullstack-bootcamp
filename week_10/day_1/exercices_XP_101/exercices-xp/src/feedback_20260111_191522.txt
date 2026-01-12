@@ -1,0 +1,49 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_1/exercices_XP_101/exercices-xp/src/App.css
+suggestions for improvement:
+- The provided code is CSS, which is not directly related to the React-Redux and Redux Toolkit exercise described in the chapter content. The exercise focuses on creating a Todo List application using React, Redux Toolkit, and React-Redux hooks for state management.
+- The code needs to include the creation of a Redux Toolkit slice, setting up the Redux store, and implementing React components (TodoList, AddTodo, TodoItem) with the necessary logic and connections to the Redux store.
+Correctness: 0.0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_1/exercices_XP_101/exercices-xp/src/App.jsx
+suggestions for improvement:
+- The provided code only includes the App component which serves as the entry point for the Todo App. It does not include the implementation of Redux store, slices, or the individual components as described in the instructions. It's missing the core logic for state management and interaction with the Redux store. Thus, it does not fulfill the requirements for Exercise 1.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_1/exercices_XP_101/exercices-xp/src/components/AddTodo.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_1/exercices_XP_101/exercices-xp/src/components/TodoItem.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_1/exercices_XP_101/exercices-xp/src/components/TodoList.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_1/exercices_XP_101/exercices-xp/src/index.css
+suggestions for improvement:
+- The provided code is a CSS stylesheet and doesn't address the React-Redux Todo List exercise, which involves creating React components, Redux slices, and connecting them to manage todo items.
+- The code should implement the steps described in the exercise to create a functional Todo List application.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_1/exercices_XP_101/exercices-xp/src/main.jsx
+suggestions for improvement:
+- The provided code only sets up the Redux store provider for the React application. While necessary for a React-Redux application, it doesn't implement any of the core functionalities described in Exercise 1, such as creating a Redux Toolkit slice, implementing reducers for todo management (add, toggle, remove), creating React components for displaying and interacting with todos (TodoList, AddTodo, TodoItem), or connecting these components to the Redux store using useSelector and useDispatch.
+- The code lacks the implementation of Redux Toolkit slice, reducers, React components, and connecting components to the Redux store as outlined in the instructions.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_1/exercices_XP_101/exercices-xp/src/redux/store.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_1/exercices_XP_101/exercices-xp/src/redux/todoSlice.js
+suggestions for improvement:
+- Consider using a more robust method for generating unique IDs, especially in larger applications. While `Date.now()` works for simple examples, it's not guaranteed to be unique in all cases.
+- The code is well-structured and easy to understand. Good use of comments to explain each reducer's purpose.
+Correctness: 100%
+-----
