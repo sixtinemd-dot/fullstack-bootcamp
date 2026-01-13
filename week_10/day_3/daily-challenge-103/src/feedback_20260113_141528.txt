@@ -1,0 +1,56 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_3/daily-challenge-103/src/App.jsx
+suggestions for improvement:
+- The provided code only includes the App component which renders CategorySelector, AddTask, and TaskList components, but the actual implementation of Redux store, reducers, actions, selectors, and components logic is missing. The code does not directly address the core requirements outlined in the Chapter Content/Questions.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_3/daily-challenge-103/src/components/AddTask.jsx
+suggestions for improvement:
+- The code only implements adding a task. It should also implement actions/reducers for editing and deleting tasks/categories, and updating task progress as specified in the instructions.
+- The provided component `AddTask` relies on `selectSelectedCategoryId`, which isn't defined within the component itself, and it is unclear if this selector is created with `createSelector` as requested. The implementation of other selectors is missing.
+- The code doesn't implement the `TaskList` and `CategorySelector` components as requested.
+Correctness: 60%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_3/daily-challenge-103/src/components/CategorySelector.jsx
+suggestions for improvement:
+- Consider adding error handling or validation for category selection.
+- Ensure that the `selectCategories` and `selectSelectedCategoryId` selectors are memoized correctly in your actual Redux setup to avoid unnecessary re-renders.
+- Add prop types for better component documentation.
+Correctness: 60%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_3/daily-challenge-103/src/components/TaskList.jsx
+suggestions for improvement:
+- The TaskList component covers displaying tasks, toggling completion, and deleting tasks. To fully address the prompt, implement task editing functionality, including UI elements to edit tasks.
+- Consider adding a CategorySelector component that utilizes `useSelector` to fetch categories and enable selection.
+- The component uses `useCallback` which enhances performance, which is great. Ensure other components also use this hook where possible.
+- The code relies on Redux actions and selectors. Please provide the Redux setup, actions, reducers, and selectors for a comprehensive review. This allows for assessment of the complete implementation.
+Correctness: 70%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_3/daily-challenge-103/src/redux/categoriesSlice.js
+suggestions for improvement:
+- Implement Redux setup for tasks, including initial state, actions, and reducers.
+- Create selectors using `createSelector` for `selectTasksByCategory`, `selectCompletedTasks`, and `selectCategoryById`.
+- Build `TaskList` and `CategorySelector` functional components using `useSelector` to fetch data from the Redux store.
+- Implement `useCallback` to handle task editing and completion efficiently.
+Correctness: 70%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_3/daily-challenge-103/src/redux/selectors.js
+suggestions for improvement:
+- Consider memoizing `selectCategoryById` with arguments to prevent unnecessary recomputations when the categoryId changes.
+- Adding type annotations would improve readability and maintainability.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_3/daily-challenge-103/src/redux/store.js
+suggestions for improvement:
+- The prompt requires creating selectors with `createSelector`. While setting up the store is necessary, the response doesn't address the primary instruction regarding selector creation.
+- The prompt asks to implement actions/reducers for tasks and categories. Implement those actions and reducers in their respective slices (tasksSlice.js and categoriesSlice.js).
+Correctness: 20%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_3/daily-challenge-103/src/redux/tasksSlice.js
+suggestions for improvement:
+- Implement the category slice and reducers as requested in the prompt.
+- Create selectors using `createSelector` to derive data, including `selectTasksByCategory`, `selectCompletedTasks`, and `selectCategoryById` as the prompt instructs.
+- Create the components `TaskList` and `CategorySelector` and have them use the appropriate selectors and actions.
+- Include error handling or validation in the reducers to prevent unexpected state changes.
+- Consider using `immer` directly within the reducer to simplify immutable updates.
+Correctness: 60%
+-----
