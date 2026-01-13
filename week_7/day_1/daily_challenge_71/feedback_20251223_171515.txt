@@ -1,0 +1,19 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_1/daily_challenge_71/app.js
+suggestions for improvement:
+- The submitted code sets up the basic Express app and mounts the quiz router, but the core functionality of the quiz game (displaying questions, submitting answers, tracking score, etc.) is not implemented in the provided code. This functionality should be present in the `quizRouter` module. 
+- The question states that the quiz questions should be hardcoded. Ensure that the quiz questions are not read from a file or database.
+- Consider adding more robust error handling and input validation in the routes, to ensure the application is more resilient. 
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_1/daily_challenge_71/package.json
+suggestions for improvement:
+- The provided code is a package.json file and does not contain any implementation of the trivia quiz game as described in the instructions.
+- The code should include the Express.js server setup, the trivia quiz model, routes for GET `/quiz`, POST `/quiz`, and GET `/quiz/score`, and the logic for tracking the user's score and providing feedback.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_1/daily_challenge_71/routes/quiz.js
+suggestions for improvement:
+- Consider using environment variables for sensitive data or configuration if this grows into a larger application.
+- Adding middleware for input validation could enhance security and prevent unexpected behavior.
+Correctness: 100%
+-----

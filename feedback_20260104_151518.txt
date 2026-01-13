@@ -1,0 +1,37 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/daily_challenge91/daily-challenge/src/context/TaskContext.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/daily_challenge91/daily-challenge/src/components/TaskInput.jsx
+suggestions for improvement:
+- This code only implements the 'ADD_TASK' functionality which was likely part of a previous exercise. It doesn't address the requirements of the current challenge: editing tasks and filtering tasks by completion status.
+- The code lacks the 'EDIT_TASK' and 'FILTER_TASKS' functionalities and the use of `useRef` as described in the instructions.
+- The UI elements for editing and filtering are missing.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/daily_challenge91/daily-challenge/src/components/TaskItem.jsx
+suggestions for improvement:
+- Consider adding a cancel edit button to revert changes.
+- For better accessibility, associate the label with the input field.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/daily_challenge91/daily-challenge/src/components/TaskList.jsx
+suggestions for improvement:
+- The provided code implements the task filtering functionality as requested in the instructions.
+- It relies on TaskItem component for editing. It's good to review that code as well
+- Consider adding error handling or validation for dispatch actions to improve robustness.
+- The filtering logic could be encapsulated into a separate helper function for better readability.
+Correctness: 70%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/daily_challenge91/daily-challenge/src/App.jsx
+suggestions for improvement:
+- The provided code only sets up the basic structure of the app and imports the TaskInput and TaskList components. It does not implement any of the requested features: editing tasks, filtering tasks, using `useRef` for editing, or implementing actions in the reducer for editing and filtering.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/daily_challenge91/daily-challenge/src/main.jsx
+suggestions for improvement:
+- The provided code only sets up the React application and TaskProvider. It does not implement the task editing or filtering features as requested in the problem description.
+- The code should include the implementation of task editing using useRef, actions in the reducer for editing tasks, and filter tasks by completion status with buttons.
+Correctness: 0%
+-----

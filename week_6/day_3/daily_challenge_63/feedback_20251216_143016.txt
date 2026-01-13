@@ -1,0 +1,12 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_3/daily_challenge_63/daily_challenge_part1.sql
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_3/daily_challenge_63/daily_challenge_part2.sql
+suggestions for improvement:
+- The code is commented out, making it not directly executable. Remove the comments to allow the code to run.
+- In the insert statement for the last record, it was intended to insert Bob who borrowed 'Harry Potter', however it currently inserts Lera instead, correct this.
+- The final statement is correct, but you could also make it dynamic by showing the number of records before and after deleting the student to truly exemplify that the delete cascade is working.
+Correctness: 80%
+-----

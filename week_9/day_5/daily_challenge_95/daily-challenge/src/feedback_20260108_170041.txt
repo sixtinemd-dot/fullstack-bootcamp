@@ -1,0 +1,63 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/daily_challenge_95/daily-challenge/src/App.css
+suggestions for improvement:
+- This CSS code does not address any of the functional requirements outlined in the problem description. It only provides styling and has no relevance to Redux store configuration, action/reducer definitions, or React component implementation for a daily planner application.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/daily_challenge_95/daily-challenge/src/App.jsx
+suggestions for improvement:
+- The provided code only sets up the basic UI structure.  It lacks the Redux store configuration, action/reducer definitions, and integration with the Redux store as outlined in the chapter content.
+- The components (DayPicker, AddTask, TaskList) are placeholders and need to be implemented with the functionality described in the chapter content, including connecting them to Redux.
+- The application should implement form validation and error handling to prevent empty task submissions and incorrect inputs. This could include client-side validation and server-side validation if applicable.
+Correctness: 10.0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/daily_challenge_95/daily-challenge/src/components/AddTask.jsx
+suggestions for improvement:
+- The `selectedDay` prop should be explicitly passed down from a parent component managing the calendar/date picker, rather than relying solely on the Redux store in `mapStateToProps`. This makes the component more reusable and less tightly coupled to the global state.
+- Consider adding input validation to prevent excessively long task descriptions or potentially harmful characters.
+- The component is missing error handling. For instance, if the `addTask` action fails, there should be some indication to the user.
+Correctness: 60%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/daily_challenge_95/daily-challenge/src/components/DayPicker.jsx
+suggestions for improvement:
+- The code only implements the date picker, not the task management functionalities (adding, editing, deleting tasks).
+- Consider using a dedicated date picker library for better UI and handling edge cases.
+Correctness: 50%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/daily_challenge_95/daily-challenge/src/components/TaskList.jsx
+suggestions for improvement:
+- Consider adding PropTypes for type checking.
+- Implement error handling, especially when interacting with the Redux store.
+- Add functionality to edit tasks, as specified in the instructions.
+Correctness: 70%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/daily_challenge_95/daily-challenge/src/index.css
+suggestions for improvement:
+- The provided code is CSS styling and does not address the core requirements of the daily planner application, which involve Redux store configuration, action/reducer implementation, React component building and integration, and testing. The task is to create a React application that manages a daily planner with redux.
+- The code provides styling but no functional implementation for adding, editing, deleting, or viewing tasks.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/daily_challenge_95/daily-challenge/src/main.jsx
+suggestions for improvement:
+- This code snippet shows the entry point of a React application using Redux. While technically correct for its limited scope (setting up the Redux store provider), it doesn't address any of the core requirements of the daily planner application outlined in the chapter content. It doesn't define actions, reducers, components, or any specific task management logic.
+- The code should implement the Redux store configuration, action definitions, reducer implementations, React components for the calendar/date picker, task display, and task management, and integrate them with the Redux store.
+- Consider breaking down the problem into smaller, manageable tasks, such as creating action types and action creators first, and then implementing the reducer logic. After that, you can build the React components and connect them to the Redux store.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/daily_challenge_95/daily-challenge/src/redux/actions.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/daily_challenge_95/daily-challenge/src/redux/reducer.js
+suggestions for improvement:
+- Consider using a more robust method for generating unique IDs, especially if persistence is added (UUIDs, for example).
+- While the reducer updates state immutably, using a library like Immer could further simplify the code and potentially improve readability.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_5/daily_challenge_95/daily-challenge/src/redux/store.js
+suggestions for improvement:
+- While this is a good starting point for setting up the Redux store, it only covers the basic store creation. The instructions outline the need for defining actions, reducers, and structuring the store to manage tasks for different days.
+- The reducer import path './reducer' is vague and should be more descriptive.
+- Consider adding initial state to the store to avoid potential undefined errors when the application first loads.
+Correctness: 10.0%
+-----
