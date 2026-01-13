@@ -1,0 +1,30 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_5/day_1/exercices_XP_51/exercice7.html
+suggestions for improvement:
+- The code appears to be attempting Exercise 7, but it's mixed with HTML. The TypeScript code should be in a separate `.ts` file and compiled to JavaScript. Also, the logic for setting the `textContent` of the `h1` element based on the `input.value` is misplaced within the HTML and doesn't properly use type assertions as outlined in the exercise instructions.  The TypeScript portion is placed in a `<script>` tag within the HTML, which is not how TypeScript is typically used in a project.
+- The TypeScript code within the script tag lacks proper type assertions as described in the exercise instructions. The exercise specifically asks to cast the HTML element to a specific type.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_5/day_1/exercices_XP_51/exercice7.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_5/day_1/exercices_XP_51/exercice7.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_5/day_1/exercices_XP_51/exercices_XP.js
+suggestions for improvement:
+- Exercise 6 is missing a type definition for Person. Define a type or interface named `Person` before the function `createPerson`.
+- Exercise 7 is missing entirely. Implement the instructions for Exercise 7 using `document.getElementById()` and type assertions.
+- Correct the spelling of 'editor' in the switch statement example.
+- Exercise 9 does not correctly implement function overloading. It implements a single function with an optional parameter, not two separate function signatures.  Implement actual function overloading using multiple function declarations with different parameter lists.
+Correctness: 88%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_5/day_1/exercices_XP_51/exercices_XP.ts
+suggestions for improvement:
+- Exercise 7 is missing.
+- In Exercise 8, the cases for "edithor", "author", "reader", and "subscriber" are misspelled. This could affect functionality.
+Correctness: 90%
+-----

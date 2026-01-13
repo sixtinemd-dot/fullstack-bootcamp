@@ -1,0 +1,46 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/daily_challenge91/daily-challenge/src/App.css
+suggestions for improvement:
+- The provided code only contains CSS styles, which do not address the core requirements of the chapter, such as implementing task editing, filtering, or using `useContext`, `useReducer`, and `useRef` for the Task Manager application.
+- Implement the React components and logic required for the Task Manager application as described in the problem description.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/daily_challenge91/daily-challenge/src/App.jsx
+suggestions for improvement:
+- The provided code only sets up the basic structure of the App component, rendering a title, description, TaskInput, and TaskList components. It does not implement any of the features specified in the prompt, such as task editing or filtering. The requirements from the prompt are not present at all.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/daily_challenge91/daily-challenge/src/components/TaskInput.jsx
+suggestions for improvement:
+- The provided code only implements the 'add task' functionality which was likely covered in a previous exercise.  It does not implement the 'edit tasks' or 'filter tasks' functionality as described in the current chapter's instructions.  It also does not include the reducer logic. Therefore, it does not address the core objectives of this specific exercise.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/daily_challenge91/daily-challenge/src/components/TaskItem.jsx
+suggestions for improvement:
+- Consider adding more descriptive names to the actions in the reducer to enhance readability, e.g., `EDIT_TASK_TEXT` instead of `EDIT_TASK`.
+- For a more robust application, implement input validation in the `saveEdit` function to prevent empty or excessively long task descriptions.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/daily_challenge91/daily-challenge/src/components/TaskList.jsx
+suggestions for improvement:
+- The code implements task filtering, but it doesn't include the task editing feature using `useRef`. This is a significant omission.
+- The filter logic can be slightly improved by using a switch statement for better readability and maintainability.
+- Consider adding error handling or checks to ensure the `dispatch` function is called with valid action types and payloads.
+Correctness: 70%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/daily_challenge91/daily-challenge/src/context/TaskContext.jsx
+suggestions for improvement:
+- Consider adding more descriptive comments within the reducer function to explain each case's logic further.
+- The initial state could be extended with an example task for better user experience upon initial load.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/daily_challenge91/daily-challenge/src/index.css
+suggestions for improvement:
+- No specific feedback.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_9/day_1/daily_challenge91/daily-challenge/src/main.jsx
+suggestions for improvement:
+- This code only sets up the React application and TaskProvider, but it doesn't implement any of the features required by the chapter content, such as editing tasks or filtering tasks by completion status. It doesn't use useRef, implement actions in the reducer for editing/filtering, or implement the UI components for these features.
+- The provided code is only the entry point of the react app and the challenge asks for adding edit and filter functionalities.
+Correctness: 0%
+-----

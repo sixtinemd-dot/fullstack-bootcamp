@@ -1,0 +1,31 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_3/exercices-xp-103/src/App.jsx
+suggestions for improvement:
+- The provided code only renders a BookList component inside the App component, but it does not implement any Redux logic as outlined in the exercise description. The exercise specifically asks to set up a Redux store, define an initial state for books, create selectors using `createSelector`, and implement UI interactions to demonstrate selector functionality.
+- The BookList component is not provided, so it is impossible to assess if it implements the selector logic.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_3/exercices-xp-103/src/components/BookList.jsx
+suggestions for improvement:
+- Consider using a `useMemo` hook to memoize the `books` variable to prevent unnecessary re-renders when the component re-renders for reasons other than a change in genre or books.
+- For larger applications, using constants for genre strings can improve maintainability.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_3/exercices-xp-103/src/redux/bookSlice.js
+suggestions for improvement:
+- Implement selectors using `createSelector` from `@reduxjs/toolkit` to filter books by genre.
+- Create React components to display the book lists and handle genre selection.
+- Connect the React components to the Redux store using `useSelector` and `useDispatch` from `react-redux`.
+Correctness: 40%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_3/exercices-xp-103/src/redux/selectors.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_3/exercices-xp-103/src/redux/store.js
+suggestions for improvement:
+- The code only sets up the Redux store. It needs to include the bookSlice definition, initial state, selectors, and component implementation as described in the instructions.
+- The code lacks the initial state with an array of books and the `createSelector` implementation for filtering books based on genres.
+- The React component implementation is missing which is required to display book lists based on genres.
+Correctness: 20%
+-----

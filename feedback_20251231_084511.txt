@@ -1,0 +1,14 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_5/daily-challenge-75/src/ImageCarousel.jsx
+suggestions for improvement:
+- Consider moving the `images` array to a separate file or a configuration file if it grows larger or becomes dynamic.
+- Add error handling for image loading to improve user experience in case of broken links.
+- Consider making the `interval` prop configurable via props.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_5/daily-challenge-75/src/App.jsx
+suggestions for improvement:
+- The code only shows the App component using the ImageCarousel component. The main logic and code that uses the 'react-responsive-carousel' package to create a carousel are missing. The ImageCarousel component is expected to implement the carousel functionality using the specified package and images.
+- No Bootstrap usage is demonstrated in the App component's structure.
+- The provided links for images are not incorporated into the code, and it's unclear how the ImageCarousel component handles image data.
+Correctness: 0%
+-----

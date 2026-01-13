@@ -1,0 +1,35 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/App.css
+suggestions for improvement:
+- The provided code snippet is CSS, but the exercise asks for a React-Redux application that fetches user data using Redux Thunk. Therefore, the CSS is irrelevant to the actual task.
+- Implement the steps outlined in the instructions: setting up the Redux store with Thunk middleware, defining a Redux slice for user data, implementing a Thunk action creator, creating a React component for displaying user data, and connecting the component to the Redux store using useSelector and useDispatch hooks.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/App.jsx
+suggestions for improvement:
+- The provided code defines the App component which is a wrapper around the UserData component. This does not independently implement any of the steps outlined in the exercise. The core logic (store setup, slice definition, thunk implementation, and data display with Redux) is missing from this particular file.
+- This code needs to implement the steps outlined in the exercise in order to earn a higher score.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/components/UserData.jsx
+suggestions for improvement:
+- Consider adding PropTypes for better type checking and component documentation.
+- Add a default state to handle initial load gracefully
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/store/store.js
+suggestions for improvement:
+- The comment about explicitly showing thunk, while technically correct, might be removed for conciseness, as RTK including it by default is the recommended practice. This is a minor point.
+- Consider adding type definitions for the store and reducer for improved type safety, especially in larger projects.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/store/userSlice.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/store/userThunks.js
+suggestions for improvement:
+- Consider adding more specific error handling based on different types of errors.
+- You could add a loading state to the slice to represent when the data is being fetched.
+Correctness: 100%
+-----

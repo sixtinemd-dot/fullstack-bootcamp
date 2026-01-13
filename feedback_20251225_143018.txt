@@ -1,0 +1,35 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_5/exercices_XP_75/exercice1/src/App.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_5/exercices_XP_75/exercice2/src/UserFavAnimals.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_5/exercices_XP_75/exercice2/src/App.jsx
+suggestions for improvement:
+- In Exercise 1, the code only addresses part of the instruction. You should add the code for Exercise 1 and 3 in the App.js and create an Exercise3.js component
+- In Exercise 3, create a separate Javascript file named `Exercise3.js`, create a new Class Component called `Exercise`. Create an Exercise.css file
+- Consider using functional components instead of class components where appropriate for better readability and performance.
+Correctness: 50%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_5/exercices_XP_75/exercice3/src/Exercice3.jsx
+suggestions for improvement:
+- Consider using more descriptive class names in your CSS file to improve maintainability.
+- While inline styling is acceptable for simple cases, for more complex styling, keeping it in the CSS file is preferable for maintainability.
+- If you have multiple paragraphs, consider renaming the classname of paragraph to something more meaningfull.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_5/exercices_XP_75/exercice3/src/App.jsx
+suggestions for improvement:
+- The provided code snippet only shows how to import and render the `Exercise` component inside the `App` component, fulfilling a part of Exercise 3. The other exercises and all the other parts of Exercise 3 were not completed.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_7/day_5/exercices_XP_75/exercice3/src/Exercice.css
+suggestions for improvement:
+- This is a CSS file content, while the exercises describe React component creation and usage. The provided CSS applies to only one part of Exercise 3. It does not address the JSX exercises or component creation.
+- The task requires implementing components, rendering JSX, using props, and applying inline styles and external CSS. This snippet only covers the CSS part of Exercise 3 and doesn't cover any other exercise.
+Correctness: 0%
+-----

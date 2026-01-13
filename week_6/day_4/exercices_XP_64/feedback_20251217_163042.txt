@@ -1,0 +1,105 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/exercice1/products.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/exercice1/shop.js
+suggestions for improvement:
+- Consider adding error handling for when a product is not found.
+- Add comments to improve the understandability of the function's purpose.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/exercice2/app.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/exercice2/data.js
+suggestions for improvement:
+- This code snippet only contains the export statement for Exercise 2. It needs the corresponding app.js file to be complete.
+- Consider providing the app.js file to showcase the import and usage of the exported data.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/exercice3/app.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/exercice3/byeWorld.txt
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/exercice3/fileManager.js
+suggestions for improvement:
+- The callbacks in `readFileSync` and `writeFileSync` are not necessary since they don't handle errors, and `readFileSync` is synchronous, so no callback is needed.
+- Error handling should be implemented to catch potential exceptions during file operations.
+- Consider using asynchronous versions of `readFile` and `writeFile` (`fs.readFile` and `fs.writeFile`) for better performance in non-blocking I/O operations, especially in a server environment.
+Correctness: 80%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/exercice3/helloWorld.txt
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/file-explorer/copy-file.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/file-explorer/destination.txt
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/file-explorer/read-directory.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/file-explorer/source.txt
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/mathApp/app.js
+suggestions for improvement:
+- The response provides code without the necessary context (e.g., the content of `math.js`). Therefore, the correctness of the response cannot be evaluated.
+- The file paths are assumed. To properly assess, include the 'math.js' file's content.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/mathApp/math.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/mathApp/package.json
+suggestions for improvement:
+- The submitted code is a `package.json` file, which describes a Node.js project. While this is related to the exercise instructions for Exercise 5, it doesn't implement the core requirements of creating a `math.js` module with addition and multiplication functions or `app.js` to use these functions and lodash. The file only initializes a Node.js project and installs the lodash package.
+- To complete the exercise, you need to create `math.js` and `app.js` with the functions and logic as described in the problem description.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/npm-beginner/app.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/npm-beginner/package.json
+suggestions for improvement:
+- This JSON describes an NPM package, but it doesn't contain any code related to the exercise instructions.
+- The exercise instructions require creating and running a javascript file (app.js) that utilizes the chalk package to print colored text to the terminal. This submission does not include this file.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/toDoApp/app.js
+suggestions for improvement:
+- The `todo.js` file, which should contain the `TodoList` class definition, is missing. Therefore, the code cannot be executed.
+- The instructions mention creating a directory named `todoApp` and placing `todo.js` and `app.js` inside it, but the provided code does not reflect this directory structure.
+- The code only demonstrates the usage of the `TodoList` class but does not provide its definition, making it incomplete.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_6/day_4/exercices_XP_64/toDoApp/toDo.js
+suggestions for improvement:
+- The provided code only contains the `TodoList` class definition, but the exercise also requires creating `app.js` to import and use this class.
+- The implementation could benefit from better error handling, e.g., handling cases where a task to be completed doesn't exist.
+Correctness: 50%
+-----
