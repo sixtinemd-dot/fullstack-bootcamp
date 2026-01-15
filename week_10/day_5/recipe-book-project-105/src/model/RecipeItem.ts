@@ -7,3 +7,4 @@ export default class RecipeItem {
     public isFavorite: boolean = false
   ) {}
 }
+
