@@ -1,0 +1,13 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_2/daily_challenge_32/daily_challenge.html
+suggestions for improvement:
+- The HTML code provides the structure, but the JavaScript logic for creating and appending the planets and moons to the DOM is missing.  A JavaScript file named `daily_challenge.js` is referenced, but its content is not provided. Therefore, the HTML alone does not address the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_3/day_2/daily_challenge_32/daily_challenge.js
+suggestions for improvement:
+- Consider using more descriptive variable names for backgroundColor values.
+- Implement the bonus objective to add moons to each planet, likely requiring an array of objects to store planet names and their corresponding moon counts.
+- Instead of directly assigning background color via style attribute, consider adding a class to the planet element, then define the background color for that class in CSS. This promotes separation of concerns.
+- The color assignment could be improved using a try-catch block or conditional statement to check if the item exists as a key in the backgroundColor object.
+Correctness: 80%
+-----

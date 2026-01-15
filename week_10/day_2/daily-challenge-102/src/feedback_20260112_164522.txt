@@ -1,0 +1,27 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/daily-challenge-102/src/App.jsx
+suggestions for improvement:
+- Consider adding error handling for the asynchronous actions.
+- Add unit tests to ensure the correct functionality of the actions and reducers.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/daily-challenge-102/src/components/AgeControls.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/daily-challenge-102/src/components/AgeDisplay.jsx
+suggestions for improvement:
+- Consider using a more visually distinct loading indicator than just text.
+- The component could be made more reusable by accepting a custom loading indicator as a prop.
+Correctness: 75%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/daily-challenge-102/src/store/ageSlice.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/daily-challenge-102/src/store/store.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----

@@ -1,0 +1,52 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/App.css
+suggestions for improvement:
+- The provided code is CSS, but the exercise requires a React-Redux application with Redux Thunk. Therefore, the code is irrelevant to the task.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/App.jsx
+suggestions for improvement:
+- The provided code only sets up the App component and includes the UserData component. It doesn't implement any of the Redux logic, Thunk setup, API fetching, or error handling described in the exercise.
+- The code needs to include Redux store initialization with Thunk middleware, a Redux slice for user data with reducers for success and error cases, a Thunk action creator for fetching data, and the connection of the UserData component to the Redux store using useSelector and useDispatch.
+- The code also needs to simulate a failed API request to test error handling.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/components/UserData.jsx
+suggestions for improvement:
+- Consider adding PropTypes for type checking.
+- Add more specific error handling, such as retrying the request or displaying a more user-friendly error message.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/index.css
+suggestions for improvement:
+- The provided code is CSS, not the React/Redux code required by the chapter exercises.  It does not address any of the steps outlined in the exercise.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/main.jsx
+suggestions for improvement:
+- The provided code only sets up the Redux store provider in the React application. It does not implement any of the specific steps outlined in the exercise, such as setting up the Redux store with Thunk middleware, defining a Redux slice for user data, implementing a Thunk action creator, or creating and connecting a React component to display the user data. Therefore, it does not address the core requirements of the exercise.
+- The app does not attempt to fetch the required data.
+- The app does not create a component that displays user data.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/store/store.js
+suggestions for improvement:
+- Consider adding comments explaining the purpose of the store.
+- Ensure that the userSlice file exists and contains the necessary reducers and initial state as described in Step 2.
+- It would be helpful to see how this store is integrated with the React application using a Provider.
+Correctness: 75%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/store/userSlice.js
+suggestions for improvement:
+- The code is missing the implementation of Redux Thunk middleware setup in the store. Add `redux-thunk` to the `configureStore` middleware array.
+- The code is missing the implementation of the Thunk action creator to fetch user data from an API endpoint.
+- The code is missing the React component (`UserData Component`) that displays the fetched user data and uses `useSelector` and `useDispatch` hooks.
+- The code only implements the Redux slice for user data, but lacks the actual data fetching logic and component integration.
+- The code lacks the actual implementation for testing the fetching, displaying and error handling.
+Correctness: 60%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/store/userThunks.js
+suggestions for improvement:
+- Consider adding a check for `null` or `undefined` before accessing properties of the fetched data in your component to prevent potential errors if the API returns unexpected data.
+- The provided code lacks the Redux store setup, slice creation, React component and the connection using useSelector and useDispatch which are mentioned in the prompt.
+Correctness: 75%
+-----
