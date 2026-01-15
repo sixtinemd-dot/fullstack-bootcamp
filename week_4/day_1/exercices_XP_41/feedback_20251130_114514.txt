@@ -1,0 +1,13 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_1/exercices_XP_41/exercices_XP_41.js
+suggestions for improvement:
+- In Exercise 2, the function definition and invocation do not match. The problem asks for destructuring the object parameter, but your solution directly passes the first and last name separately. Modify the function to accept an object as a parameter and destructure it.
+- For Exercise 3, consider using the `map` method for a more concise solution to modify the array. Instead of using a `for...of` loop, `Object.entries(users).map(([key, value]) => [key, value * 2])` would achieve the same result in a more functional style.
+- Exercise 1 and Exercise 4 asked about the output of some code, you provided the correct answer but you also provided the code, which wasn't necessary. You can just provide the expected output.
+Correctness: 90.0%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_1/exercices_XP_41/index.html
+suggestions for improvement:
+- In Exercise 2, the `displayStudentInfo` function should destructure the object parameter directly within the function definition. Currently, you are passing separate parameters 'first' and 'last' to the function when the requirement is to destructure a single object.
+- In Exercise 2, the requested output was not returned, only logged to the console.
+Correctness: 90%
+-----

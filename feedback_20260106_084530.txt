@@ -1,0 +1,11 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_8/day_5/daily_challenge_85/node-calculator/src/components/Calculator.jsx
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_8/day_5/daily_challenge_85/node-calculator/src/App.jsx
+suggestions for improvement:
+- The provided code only sets up the App component and imports the Calculator component. It does not implement any of the required calculator functionality (input fields, addition, display of result, or the bonus select element).
+- The actual implementation of the Calculator component, which should contain the core logic, is missing.
+Correctness: 0%
+-----

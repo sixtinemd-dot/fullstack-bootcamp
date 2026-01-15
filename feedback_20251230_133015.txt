@@ -1,0 +1,13 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_8/day_2/daily-challenge-82/src/FormComponent.jsx
+suggestions for improvement:
+- The submit functionality is missing. The instructions specify that on submit, the entered data should be passed in the URL.
+- The App.js file is not provided, so it's impossible to assess whether the component is stateful and if props are passed correctly from the parent component.
+- Consider adding more comprehensive error handling and validation.
+Correctness: 80%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_8/day_2/daily-challenge-82/src/App.jsx
+suggestions for improvement:
+- Implement the form submission logic to construct the URL with the form data as query parameters. Currently, the code only handles the form input and state management but doesn't address the URL creation part of the requirement.
+- Consider adding validation to the form inputs (e.g., age should be a number) for a better user experience.
+Correctness: 75%
+-----

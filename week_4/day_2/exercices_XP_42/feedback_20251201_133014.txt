@@ -1,0 +1,22 @@
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_2/exercices_XP_42/exercice1_XP.html
+suggestions for improvement:
+- Consider adding some basic styling to improve the form's visual appearance.
+- For slightly better readability, use consistent indentation throughout the HTML.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_2/exercices_XP_42/exercice2_XP.html
+suggestions for improvement:
+- Consider adding CSS for better styling.
+- For a more robust solution, implement server-side handling to process the form data, though this wasn't explicitly requested.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_2/exercices_XP_42/exercice3_XP.html
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_2/exercices_XP_42/exercice3_XP.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----

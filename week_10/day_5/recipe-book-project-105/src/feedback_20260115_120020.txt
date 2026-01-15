@@ -1,0 +1,27 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_5/recipe-book-project-105/src/App.tsx
+suggestions for improvement:
+- The provided code uses React, which was not specified or implied by the instructions.
+- The prompt requests the implementation of the application using Vanilla TypeScript, DOM manipulation, and specifically mentions creating `RecipeItem.ts`, `RecipeCollection.ts`, `RecipeTemplate.ts`, and `main.ts` files. The provided React code structure and component usage do not align with these file structure requirements.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_5/recipe-book-project-105/src/model/RecipeCollection.ts
+suggestions for improvement:
+- The `load` function attempts to create `RecipeItem` instances from the stored data, but it assumes that the data structure in localStorage perfectly matches the `RecipeItem` structure. This can lead to errors if the structure changes or if the data is corrupted. It should use a more robust validation or transformation logic.
+- Missing the add, remove, and toggle favorite status methods. Those are core requirements.
+- Consider using try-catch blocks when accessing localStorage to handle potential errors.
+- The `load` function uses `JSON.parse` without any error handling. This could lead to application crashes if the data in `localStorage` is corrupted or malformed.
+- Missing all methods to add, remove, and toggle recipes which are crucial requirements.
+- Consider adding type checking to localStorage set and get
+Correctness: 50%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_5/recipe-book-project-105/src/model/RecipeItem.ts
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_5/recipe-book-project-105/src/templates/RecipeTemplate.tsx
+suggestions for improvement:
+- Consider using React.Fragment instead of a div as the outer element to avoid unnecessary DOM nodes if styling doesn't require it.
+- While `key={i}` works in the ingredients map, using a more stable and unique key (if available from the data itself) would improve performance if the ingredient list changes.
+Correctness: 100%
+-----
