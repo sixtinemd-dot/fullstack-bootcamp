@@ -1,0 +1,44 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/App.css
+suggestions for improvement:
+- The provided code is just CSS styling and does not address any of the steps outlined in the exercise instructions.  It does not set up a Redux store, define a slice, implement a thunk, create a React component, or connect the component to the Redux store.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/App.jsx
+suggestions for improvement:
+- The provided code only includes the App component which sets the stage to render UserData Component, it needs to set up Redux Store with Thunk Middleware, Define Redux Slice for User Data, Implement Thunk Action Creator, Connect Component to Redux Store and Test Functionality.
+- The code does not implement the core functionalities described in the chapter content regarding Redux Thunk, user data fetching, and Redux store management.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/components/UserData.jsx
+suggestions for improvement:
+- Consider adding PropTypes for type checking, especially for the data prop.
+- Add a check for `data` being null or undefined before attempting to access its properties to prevent potential errors.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/index.css
+suggestions for improvement:
+- This code defines global CSS styles and doesn't implement any of the React-Redux functionality described in the exercise, such as setting up the Redux store, defining a Redux slice, implementing a Thunk action creator, creating a React component, or connecting the component to the Redux store. Therefore, it completely misses the point of the exercise.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/main.jsx
+suggestions for improvement:
+- This code snippet only sets up the Redux store provider and renders the main App component. It doesn't implement any of the specific steps outlined in the exercise, such as creating a Redux slice for user data, implementing a Thunk action creator, or creating a component to display user data. Therefore, it fails to address the core requirements of the exercise.
+Correctness: 0%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/store/store.js
+suggestions for improvement:
+- Consider moving the middleware configuration to a separate file for better organization, especially in larger projects.
+- While explicitly showing thunk is good for understanding, in a real project, consider removing the explicit middleware configuration if you are not adding custom middleware.
+Correctness: 75%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/store/userSlice.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_2/exercices-xp-102/src/store/userThunks.js
+suggestions for improvement:
+- Consider adding more specific error handling based on the error type.
+- Add comments to explain the purpose of each section of the code.
+Correctness: 100%
+-----

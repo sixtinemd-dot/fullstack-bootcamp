@@ -1,0 +1,12 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_4/exercices_XP_44/exercice_XP.html
+suggestions for improvement:
+- Consider using more descriptive variable names (e.g., `giphyData` instead of `data`).
+- You could refactor the error handling into a separate function to avoid repetition in the `fetch` calls.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_4/day_4/exercices_XP_44/exercice_XP.js
+suggestions for improvement:
+- Consider adding comments to explain the purpose of each section of code, especially for more complex logic.
+- For improved code structure, you could encapsulate each exercise into its own function or module.
+Correctness: 100%
+-----
