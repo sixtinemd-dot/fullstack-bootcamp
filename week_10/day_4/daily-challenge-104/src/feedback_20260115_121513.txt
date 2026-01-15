@@ -1,0 +1,12 @@
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_4/daily-challenge-104/src/App.tsx
+suggestions for improvement:
+- Consider extracting the input elements into a separate component for better organization and reusability.
+- The book id generation is simplistic. In a real application, you might want to use a more robust method for generating unique IDs, such as UUIDs.
+Correctness: 100%
+-----
+URL: https://github.com/sixtinemd-dot/fullstack-bootcamp/blob/main/week_10/day_4/daily-challenge-104/src/components/List.tsx
+suggestions for improvement:
+- The provided code only implements the generic `List` component. The instructions also require implementing the `Book` type, the `BookApp` component with the useState hook, and the `addBook` functionality. The solution is incomplete.
+- Consider adding the Book type definition, the BookApp component with useState for managing the book list, and the addBook function to fully address the problem.
+Correctness: 50%
+-----
